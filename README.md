@@ -4,6 +4,8 @@
 
 This tool uses the **default Mitmproxy certificate hash** (`c8750f0d`).  
 
+## 🖼️ Screenshot
+![CertInstaller Screenshot](https://github.com/paulafredo/CertInstaller/blob/main/picture/screenshoots.png?raw=true)
 
 ---
 
@@ -22,3 +24,4 @@ This tool uses the **default Mitmproxy certificate hash** (`c8750f0d`).
 4. Click **Install** (or **Remove**)  
   
 **Supported formats:** `.pem`, `.crt`, `.cer`, `.0`
+
