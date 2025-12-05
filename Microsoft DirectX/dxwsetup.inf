@@ -1,0 +1,32 @@
+[Version]
+Signature="$CHICAGO$"
+AdvancedINF=2.0
+Provider = %MSFT%
+
+[SourceDisksNames]
+1 = %DiskName%,DXWSETUP.EXE,0
+
+[SourceDisksFiles]
+dsetup.dll=1
+dsetup32.dll=1
+
+[DestinationDirs]
+DSetupDLL=11,directx\websetup
+
+[DirectX_WinNT]
+CopyFiles=DSetupDLL
+
+[DirectX_Win9X]
+CopyFiles=DSetupDLL
+
+[CleanUp]
+DelFiles=DSetupDLL
+
+[DSetupDLL]
+dsetup.dll,,,32
+dsetup32.dll,,,32
+
+[Strings]
+MSFT                 = "Microsoft"
+DiskName             = "DXWSETUP"
+

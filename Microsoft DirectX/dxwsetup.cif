@@ -1,0 +1,2047 @@
+[Version]
+Signature=$Chicago$
+DisplayName=%SetupTitle%
+MinFileSize=2000
+
+[DirectX]
+SectionType=Group
+Priority=100
+DisplayName=%DirectX%
+
+[DirectX_Win9X]
+DisplayName=%DirectX_Win9X%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen
+Group=DirectX
+Size=4608,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_w9x.cab",3
+URL2="dinput_w9x_81.cab",3
+URL3="dplay_w9x.cab",3
+URL4="dshow_w9x.cab",3
+URL5="dshow_w9x_81.cab",3
+URL6="graphics_w9x.cab",3
+URL7="graphics_w9x_81.cab",3
+URL8="ks_w9x.cab",3
+URL9="vb_w9x.cab",3
+URL10="bda_w9x.cab",3
+URL11="setup_w9x.cab",3
+Version="9,29,1974,0"
+
+[DirectX_Win98_ENG]
+DisplayName=%DirectX_Win98%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen
+Group=DirectX
+Size=4348,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_w9x_eng.cab",3
+URL2="dinput_w9x_81_eng.cab",3
+URL3="dplay_w9x_eng.cab",3
+URL4="dshow_w9x_eng.cab",3
+URL5="dxdiag_w9x_eng.cab",3
+URL6="graphics_w9x_eng.cab",3
+URL7="ks_w9x_eng.cab",3
+URL8="setup_w9x_eng.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_Win9X,DirectX_Setup
+
+[DirectX_Win98_JPN]
+DisplayName=%DirectX_Win98%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen
+Group=DirectX
+Size=4102,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_w9x_jpn.cab",3
+URL2="dinput_w9x_81_jpn.cab",3
+URL3="dplay_w9x_jpn.cab",3
+URL4="dshow_w9x_jpn.cab",3
+URL5="dxdiag_w9x_jpn.cab",3
+URL6="graphics_w9x_jpn.cab",3
+URL7="ks_w9x_jpn.cab",3
+URL8="setup_w9x_jpn.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_Win9X,DirectX_Setup
+
+[DirectX_Win98_BRZ]
+DisplayName=%DirectX_Win98%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen
+Group=DirectX
+Size=4104,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_w9x_brz.cab",3
+URL2="dinput_w9x_81_brz.cab",3
+URL3="dplay_w9x_brz.cab",3
+URL4="dshow_w9x_brz.cab",3
+URL5="dxdiag_w9x_brz.cab",3
+URL6="graphics_w9x_brz.cab",3
+URL7="ks_w9x_brz.cab",3
+URL8="setup_w9x_brz.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_Win9X,DirectX_Setup
+
+[DirectX_Win98_CHS]
+DisplayName=%DirectX_Win98%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen
+Group=DirectX
+Size=4097,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_w9x_chs.cab",3
+URL2="dinput_w9x_81_chs.cab",3
+URL3="dplay_w9x_chs.cab",3
+URL4="dshow_w9x_chs.cab",3
+URL5="dxdiag_w9x_chs.cab",3
+URL6="graphics_w9x_chs.cab",3
+URL7="ks_w9x_chs.cab",3
+URL8="setup_w9x_chs.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_Win9X,DirectX_Setup
+
+[DirectX_Win98_CHT]
+DisplayName=%DirectX_Win98%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen
+Group=DirectX
+Size=4097,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_w9x_cht.cab",3
+URL2="dinput_w9x_81_cht.cab",3
+URL3="dplay_w9x_cht.cab",3
+URL4="dshow_w9x_cht.cab",3
+URL5="dxdiag_w9x_cht.cab",3
+URL6="graphics_w9x_cht.cab",3
+URL7="ks_w9x_cht.cab",3
+URL8="setup_w9x_cht.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_Win9X,DirectX_Setup
+
+[DirectX_Win98_CZE]
+DisplayName=%DirectX_Win98%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen
+Group=DirectX
+Size=4107,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_w9x_cze.cab",3
+URL2="dinput_w9x_81_cze.cab",3
+URL3="dplay_w9x_cze.cab",3
+URL4="dshow_w9x_cze.cab",3
+URL5="dxdiag_w9x_cze.cab",3
+URL6="graphics_w9x_cze.cab",3
+URL7="ks_w9x_cze.cab",3
+URL8="setup_w9x_cze.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_Win9X,DirectX_Setup
+
+[DirectX_Win98_DUT]
+DisplayName=%DirectX_Win98%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen
+Group=DirectX
+Size=4105,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_w9x_dut.cab",3
+URL2="dinput_w9x_81_dut.cab",3
+URL3="dplay_w9x_dut.cab",3
+URL4="dshow_w9x_dut.cab",3
+URL5="dxdiag_w9x_dut.cab",3
+URL6="graphics_w9x_dut.cab",3
+URL7="ks_w9x_dut.cab",3
+URL8="setup_w9x_dut.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_Win9X,DirectX_Setup
+
+[DirectX_Win98_FRN]
+DisplayName=%DirectX_Win98%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen
+Group=DirectX
+Size=4106,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_w9x_frn.cab",3
+URL2="dinput_w9x_81_frn.cab",3
+URL3="dplay_w9x_frn.cab",3
+URL4="dshow_w9x_frn.cab",3
+URL5="dxdiag_w9x_frn.cab",3
+URL6="graphics_w9x_frn.cab",3
+URL7="ks_w9x_frn.cab",3
+URL8="setup_w9x_frn.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_Win9X,DirectX_Setup
+
+[DirectX_Win98_GER]
+DisplayName=%DirectX_Win98%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen
+Group=DirectX
+Size=4109,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_w9x_ger.cab",3
+URL2="dinput_w9x_81_ger.cab",3
+URL3="dplay_w9x_ger.cab",3
+URL4="dshow_w9x_ger.cab",3
+URL5="dxdiag_w9x_ger.cab",3
+URL6="graphics_w9x_ger.cab",3
+URL7="ks_w9x_ger.cab",3
+URL8="setup_w9x_ger.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_Win9X,DirectX_Setup
+
+[DirectX_Win98_ITN]
+DisplayName=%DirectX_Win98%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen
+Group=DirectX
+Size=4104,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_w9x_itn.cab",3
+URL2="dinput_w9x_81_itn.cab",3
+URL3="dplay_w9x_itn.cab",3
+URL4="dshow_w9x_itn.cab",3
+URL5="dxdiag_w9x_itn.cab",3
+URL6="graphics_w9x_itn.cab",3
+URL7="ks_w9x_itn.cab",3
+URL8="setup_w9x_itn.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_Win9X,DirectX_Setup
+
+[DirectX_Win98_KOR]
+DisplayName=%DirectX_Win98%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen
+Group=DirectX
+Size=4100,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_w9x_kor.cab",3
+URL2="dinput_w9x_81_kor.cab",3
+URL3="dplay_w9x_kor.cab",3
+URL4="dshow_w9x_kor.cab",3
+URL5="dxdiag_w9x_kor.cab",3
+URL6="graphics_w9x_kor.cab",3
+URL7="ks_w9x_kor.cab",3
+URL8="setup_w9x_kor.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_Win9X,DirectX_Setup
+
+[DirectX_Win98_POL]
+DisplayName=%DirectX_Win98%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen
+Group=DirectX
+Size=4108,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_w9x_pol.cab",3
+URL2="dinput_w9x_81_pol.cab",3
+URL3="dplay_w9x_pol.cab",3
+URL4="dshow_w9x_pol.cab",3
+URL5="dxdiag_w9x_pol.cab",3
+URL6="graphics_w9x_pol.cab",3
+URL7="ks_w9x_pol.cab",3
+URL8="setup_w9x_pol.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_Win9X,DirectX_Setup
+
+[DirectX_Win98_RUS]
+DisplayName=%DirectX_Win98%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen
+Group=DirectX
+Size=4106,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_w9x_rus.cab",3
+URL2="dinput_w9x_81_rus.cab",3
+URL3="dplay_w9x_rus.cab",3
+URL4="dshow_w9x_rus.cab",3
+URL5="dxdiag_w9x_rus.cab",3
+URL6="graphics_w9x_rus.cab",3
+URL7="ks_w9x_rus.cab",3
+URL8="setup_w9x_rus.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_Win9X,DirectX_Setup
+
+[DirectX_Win98_SPA]
+DisplayName=%DirectX_Win98%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen
+Group=DirectX
+Size=4104,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_w9x_spa.cab",3
+URL2="dinput_w9x_81_spa.cab",3
+URL3="dplay_w9x_spa.cab",3
+URL4="dshow_w9x_spa.cab",3
+URL5="dxdiag_w9x_spa.cab",3
+URL6="graphics_w9x_spa.cab",3
+URL7="ks_w9x_spa.cab",3
+URL8="setup_w9x_spa.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_Win9X,DirectX_Setup
+
+[DirectX_Win98_SWE]
+DisplayName=%DirectX_Win98%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen
+Group=DirectX
+Size=4103,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_w9x_swe.cab",3
+URL2="dinput_w9x_81_swe.cab",3
+URL3="dplay_w9x_swe.cab",3
+URL4="dshow_w9x_swe.cab",3
+URL5="dxdiag_w9x_swe.cab",3
+URL6="graphics_w9x_swe.cab",3
+URL7="ks_w9x_swe.cab",3
+URL8="setup_w9x_swe.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_Win9X,DirectX_Setup
+
+[DirectX_WinME_ENG]
+DisplayName=%DirectX_WinME%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen
+Group=DirectX
+Size=4348,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_w9x_eng.cab",3
+URL2="dinput_w9x_81_eng.cab",3
+URL3="dplay_w9x_eng.cab",3
+URL4="dshow_w9x_eng.cab",3
+URL5="dxdiag_w9x_eng.cab",3
+URL6="graphics_w9x_eng.cab",3
+URL7="ks_w9x_eng.cab",3
+URL8="setup_w9x_eng.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_Win9X,DirectX_Setup
+
+[DirectX_WinME_JPN]
+DisplayName=%DirectX_WinME%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen
+Group=DirectX
+Size=4102,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_w9x_jpn.cab",3
+URL2="dinput_w9x_81_jpn.cab",3
+URL3="dplay_w9x_jpn.cab",3
+URL4="dshow_w9x_jpn.cab",3
+URL5="dxdiag_w9x_jpn.cab",3
+URL6="graphics_w9x_jpn.cab",3
+URL7="ks_w9x_jpn.cab",3
+URL8="setup_w9x_jpn.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_Win9X,DirectX_Setup
+
+[DirectX_WinME_BRZ]
+DisplayName=%DirectX_WinME%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen
+Group=DirectX
+Size=4104,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_w9x_brz.cab",3
+URL2="dinput_w9x_81_brz.cab",3
+URL3="dplay_w9x_brz.cab",3
+URL4="dshow_w9x_brz.cab",3
+URL5="dxdiag_w9x_brz.cab",3
+URL6="graphics_w9x_brz.cab",3
+URL7="ks_w9x_brz.cab",3
+URL8="setup_w9x_brz.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_Win9X,DirectX_Setup
+
+[DirectX_WinME_CHS]
+DisplayName=%DirectX_WinME%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen
+Group=DirectX
+Size=4097,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_w9x_chs.cab",3
+URL2="dinput_w9x_81_chs.cab",3
+URL3="dplay_w9x_chs.cab",3
+URL4="dshow_w9x_chs.cab",3
+URL5="dxdiag_w9x_chs.cab",3
+URL6="graphics_w9x_chs.cab",3
+URL7="ks_w9x_chs.cab",3
+URL8="setup_w9x_chs.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_Win9X,DirectX_Setup
+
+[DirectX_WinME_CHT]
+DisplayName=%DirectX_WinME%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen
+Group=DirectX
+Size=4097,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_w9x_cht.cab",3
+URL2="dinput_w9x_81_cht.cab",3
+URL3="dplay_w9x_cht.cab",3
+URL4="dshow_w9x_cht.cab",3
+URL5="dxdiag_w9x_cht.cab",3
+URL6="graphics_w9x_cht.cab",3
+URL7="ks_w9x_cht.cab",3
+URL8="setup_w9x_cht.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_Win9X,DirectX_Setup
+
+[DirectX_WinME_CZE]
+DisplayName=%DirectX_WinME%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen
+Group=DirectX
+Size=4107,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_w9x_cze.cab",3
+URL2="dinput_w9x_81_cze.cab",3
+URL3="dplay_w9x_cze.cab",3
+URL4="dshow_w9x_cze.cab",3
+URL5="dxdiag_w9x_cze.cab",3
+URL6="graphics_w9x_cze.cab",3
+URL7="ks_w9x_cze.cab",3
+URL8="setup_w9x_cze.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_Win9X,DirectX_Setup
+
+[DirectX_WinME_DUT]
+DisplayName=%DirectX_WinME%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen
+Group=DirectX
+Size=4105,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_w9x_dut.cab",3
+URL2="dinput_w9x_81_dut.cab",3
+URL3="dplay_w9x_dut.cab",3
+URL4="dshow_w9x_dut.cab",3
+URL5="dxdiag_w9x_dut.cab",3
+URL6="graphics_w9x_dut.cab",3
+URL7="ks_w9x_dut.cab",3
+URL8="setup_w9x_dut.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_Win9X,DirectX_Setup
+
+[DirectX_WinME_FRN]
+DisplayName=%DirectX_WinME%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen
+Group=DirectX
+Size=4106,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_w9x_frn.cab",3
+URL2="dinput_w9x_81_frn.cab",3
+URL3="dplay_w9x_frn.cab",3
+URL4="dshow_w9x_frn.cab",3
+URL5="dxdiag_w9x_frn.cab",3
+URL6="graphics_w9x_frn.cab",3
+URL7="ks_w9x_frn.cab",3
+URL8="setup_w9x_frn.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_Win9X,DirectX_Setup
+
+[DirectX_WinME_GER]
+DisplayName=%DirectX_WinME%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen
+Group=DirectX
+Size=4109,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_w9x_ger.cab",3
+URL2="dinput_w9x_81_ger.cab",3
+URL3="dplay_w9x_ger.cab",3
+URL4="dshow_w9x_ger.cab",3
+URL5="dxdiag_w9x_ger.cab",3
+URL6="graphics_w9x_ger.cab",3
+URL7="ks_w9x_ger.cab",3
+URL8="setup_w9x_ger.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_Win9X,DirectX_Setup
+
+[DirectX_WinME_ITN]
+DisplayName=%DirectX_WinME%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen
+Group=DirectX
+Size=4104,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_w9x_itn.cab",3
+URL2="dinput_w9x_81_itn.cab",3
+URL3="dplay_w9x_itn.cab",3
+URL4="dshow_w9x_itn.cab",3
+URL5="dxdiag_w9x_itn.cab",3
+URL6="graphics_w9x_itn.cab",3
+URL7="ks_w9x_itn.cab",3
+URL8="setup_w9x_itn.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_Win9X,DirectX_Setup
+
+[DirectX_WinME_KOR]
+DisplayName=%DirectX_WinME%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen
+Group=DirectX
+Size=4100,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_w9x_kor.cab",3
+URL2="dinput_w9x_81_kor.cab",3
+URL3="dplay_w9x_kor.cab",3
+URL4="dshow_w9x_kor.cab",3
+URL5="dxdiag_w9x_kor.cab",3
+URL6="graphics_w9x_kor.cab",3
+URL7="ks_w9x_kor.cab",3
+URL8="setup_w9x_kor.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_Win9X,DirectX_Setup
+
+[DirectX_WinME_POL]
+DisplayName=%DirectX_WinME%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen
+Group=DirectX
+Size=4108,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_w9x_pol.cab",3
+URL2="dinput_w9x_81_pol.cab",3
+URL3="dplay_w9x_pol.cab",3
+URL4="dshow_w9x_pol.cab",3
+URL5="dxdiag_w9x_pol.cab",3
+URL6="graphics_w9x_pol.cab",3
+URL7="ks_w9x_pol.cab",3
+URL8="setup_w9x_pol.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_Win9X,DirectX_Setup
+
+[DirectX_WinME_RUS]
+DisplayName=%DirectX_WinME%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen
+Group=DirectX
+Size=4106,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_w9x_rus.cab",3
+URL2="dinput_w9x_81_rus.cab",3
+URL3="dplay_w9x_rus.cab",3
+URL4="dshow_w9x_rus.cab",3
+URL5="dxdiag_w9x_rus.cab",3
+URL6="graphics_w9x_rus.cab",3
+URL7="ks_w9x_rus.cab",3
+URL8="setup_w9x_rus.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_Win9X,DirectX_Setup
+
+[DirectX_WinME_SPA]
+DisplayName=%DirectX_WinME%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen
+Group=DirectX
+Size=4104,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_w9x_spa.cab",3
+URL2="dinput_w9x_81_spa.cab",3
+URL3="dplay_w9x_spa.cab",3
+URL4="dshow_w9x_spa.cab",3
+URL5="dxdiag_w9x_spa.cab",3
+URL6="graphics_w9x_spa.cab",3
+URL7="ks_w9x_spa.cab",3
+URL8="setup_w9x_spa.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_Win9X,DirectX_Setup
+
+[DirectX_WinME_SWE]
+DisplayName=%DirectX_WinME%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen
+Group=DirectX
+Size=4103,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_w9x_swe.cab",3
+URL2="dinput_w9x_81_swe.cab",3
+URL3="dplay_w9x_swe.cab",3
+URL4="dshow_w9x_swe.cab",3
+URL5="dxdiag_w9x_swe.cab",3
+URL6="graphics_w9x_swe.cab",3
+URL7="ks_w9x_swe.cab",3
+URL8="setup_w9x_swe.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_Win9X,DirectX_Setup
+
+[DirectX_WinNT]
+AdminCheck=1
+DisplayName=%DirectX_WinNT%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=2311,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt.cab",3
+URL2="dplay_nt.cab",3
+URL3="dshow_nt.cab",3
+URL4="dshow_nt_81.cab",3
+URL5="graphics_nt.cab",3
+URL6="vb_nt.cab",3
+Version="9,29,1974,0"
+
+[DirectX_Win2K]
+AdminCheck=1
+DisplayName=%DirectX_Win2K%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1908,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="setup_w2k.cab",3
+URL2="graphics_w2k.cab",3
+URL3="graphics_w2k_81.cab",3
+URL4="dinput_w2k_81.cab",3
+URL5="ks_nt.cab",3
+URL6="bda_w2k.cab",3
+Version="9,29,1974,0"
+
+[DirectX_WinXP]
+AdminCheck=1
+DisplayName=%DirectX_WinXP%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1678,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="setup_wxp.cab",3
+URL2="graphics_wxp.cab",3
+URL3="graphics_wxp_81.cab",3
+URL4="dinput_wxp_81.cab",3
+URL5="ks_nt.cab",3
+URL6="ks_wxp_81.cab",3
+URL7="bda_wxp.cab",3
+Version="9,29,1974,0"
+
+[DirectX_Win2K_ENG]
+AdminCheck=1
+DisplayName=%DirectX_Win2K_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=4133,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_eng.cab",3
+URL2="dinput_w2k_81_eng.cab",3
+URL3="dplay_nt_eng.cab",3
+URL4="dshow_nt_eng.cab",3
+URL5="dxdiag_nt_eng.cab",3
+URL6="graphics_nt_eng.cab",3
+URL7="ks_nt_eng.cab",3
+URL8="dshow_w2k_eng.cab",3
+URL9="setup_w2k_eng.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_Win2K,DirectX_Setup
+
+[DirectX_Win2K_JPN]
+AdminCheck=1
+DisplayName=%DirectX_Win2K_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3841,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_jpn.cab",3
+URL2="dinput_w2k_81_jpn.cab",3
+URL3="dplay_nt_jpn.cab",3
+URL4="dshow_nt_jpn.cab",3
+URL5="dxdiag_nt_jpn.cab",3
+URL6="graphics_nt_jpn.cab",3
+URL7="ks_nt_jpn.cab",3
+URL8="dshow_w2k_jpn.cab",3
+URL9="setup_w2k_jpn.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_Win2K,DirectX_Setup
+
+[DirectX_Win2K_BRZ]
+AdminCheck=1
+DisplayName=%DirectX_Win2K_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3843,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_brz.cab",3
+URL2="dinput_w2k_81_brz.cab",3
+URL3="dplay_nt_brz.cab",3
+URL4="dshow_nt_brz.cab",3
+URL5="dxdiag_nt_brz.cab",3
+URL6="graphics_nt_brz.cab",3
+URL7="ks_nt_brz.cab",3
+URL8="dshow_w2k_brz.cab",3
+URL9="setup_w2k_brz.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_Win2K,DirectX_Setup
+
+[DirectX_Win2K_CHS]
+AdminCheck=1
+DisplayName=%DirectX_Win2K_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3835,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_chs.cab",3
+URL2="dinput_w2k_81_chs.cab",3
+URL3="dplay_nt_chs.cab",3
+URL4="dshow_nt_chs.cab",3
+URL5="dxdiag_nt_chs.cab",3
+URL6="graphics_nt_chs.cab",3
+URL7="ks_nt_chs.cab",3
+URL8="dshow_w2k_chs.cab",3
+URL9="setup_w2k_chs.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_Win2K,DirectX_Setup
+
+[DirectX_Win2K_CHT]
+AdminCheck=1
+DisplayName=%DirectX_Win2K_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3836,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_cht.cab",3
+URL2="dinput_w2k_81_cht.cab",3
+URL3="dplay_nt_cht.cab",3
+URL4="dshow_nt_cht.cab",3
+URL5="dxdiag_nt_cht.cab",3
+URL6="graphics_nt_cht.cab",3
+URL7="ks_nt_cht.cab",3
+URL8="dshow_w2k_cht.cab",3
+URL9="setup_w2k_cht.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_Win2K,DirectX_Setup
+
+[DirectX_Win2K_CZE]
+AdminCheck=1
+DisplayName=%DirectX_Win2K_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3845,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_cze.cab",3
+URL2="dinput_w2k_81_cze.cab",3
+URL3="dplay_nt_cze.cab",3
+URL4="dshow_nt_cze.cab",3
+URL5="dxdiag_nt_cze.cab",3
+URL6="graphics_nt_cze.cab",3
+URL7="ks_nt_cze.cab",3
+URL8="dshow_w2k_cze.cab",3
+URL9="setup_w2k_cze.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_Win2K,DirectX_Setup
+
+[DirectX_Win2K_DUT]
+AdminCheck=1
+DisplayName=%DirectX_Win2K_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3844,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_dut.cab",3
+URL2="dinput_w2k_81_dut.cab",3
+URL3="dplay_nt_dut.cab",3
+URL4="dshow_nt_dut.cab",3
+URL5="dxdiag_nt_dut.cab",3
+URL6="graphics_nt_dut.cab",3
+URL7="ks_nt_dut.cab",3
+URL8="dshow_w2k_dut.cab",3
+URL9="setup_w2k_dut.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_Win2K,DirectX_Setup
+
+[DirectX_Win2K_FRN]
+AdminCheck=1
+DisplayName=%DirectX_Win2K_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3845,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_frn.cab",3
+URL2="dinput_w2k_81_frn.cab",3
+URL3="dplay_nt_frn.cab",3
+URL4="dshow_nt_frn.cab",3
+URL5="dxdiag_nt_frn.cab",3
+URL6="graphics_nt_frn.cab",3
+URL7="ks_nt_frn.cab",3
+URL8="dshow_w2k_frn.cab",3
+URL9="setup_w2k_frn.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_Win2K,DirectX_Setup
+
+[DirectX_Win2K_GER]
+AdminCheck=1
+DisplayName=%DirectX_Win2K_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3849,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_ger.cab",3
+URL2="dinput_w2k_81_ger.cab",3
+URL3="dplay_nt_ger.cab",3
+URL4="dshow_nt_ger.cab",3
+URL5="dxdiag_nt_ger.cab",3
+URL6="graphics_nt_ger.cab",3
+URL7="ks_nt_ger.cab",3
+URL8="dshow_w2k_ger.cab",3
+URL9="setup_w2k_ger.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_Win2K,DirectX_Setup
+
+[DirectX_Win2K_ITN]
+AdminCheck=1
+DisplayName=%DirectX_Win2K_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3843,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_itn.cab",3
+URL2="dinput_w2k_81_itn.cab",3
+URL3="dplay_nt_itn.cab",3
+URL4="dshow_nt_itn.cab",3
+URL5="dxdiag_nt_itn.cab",3
+URL6="graphics_nt_itn.cab",3
+URL7="ks_nt_itn.cab",3
+URL8="dshow_w2k_itn.cab",3
+URL9="setup_w2k_itn.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_Win2K,DirectX_Setup
+
+[DirectX_Win2K_KOR]
+AdminCheck=1
+DisplayName=%DirectX_Win2K_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3839,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_kor.cab",3
+URL2="dinput_w2k_81_kor.cab",3
+URL3="dplay_nt_kor.cab",3
+URL4="dshow_nt_kor.cab",3
+URL5="dxdiag_nt_kor.cab",3
+URL6="graphics_nt_kor.cab",3
+URL7="ks_nt_kor.cab",3
+URL8="dshow_w2k_kor.cab",3
+URL9="setup_w2k_kor.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_Win2K,DirectX_Setup
+
+[DirectX_Win2K_POL]
+AdminCheck=1
+DisplayName=%DirectX_Win2K_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3847,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_pol.cab",3
+URL2="dinput_w2k_81_pol.cab",3
+URL3="dplay_nt_pol.cab",3
+URL4="dshow_nt_pol.cab",3
+URL5="dxdiag_nt_pol.cab",3
+URL6="graphics_nt_pol.cab",3
+URL7="ks_nt_pol.cab",3
+URL8="dshow_w2k_pol.cab",3
+URL9="setup_w2k_pol.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_Win2K,DirectX_Setup
+
+[DirectX_Win2K_RUS]
+AdminCheck=1
+DisplayName=%DirectX_Win2K_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3845,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_rus.cab",3
+URL2="dinput_w2k_81_rus.cab",3
+URL3="dplay_nt_rus.cab",3
+URL4="dshow_nt_rus.cab",3
+URL5="dxdiag_nt_rus.cab",3
+URL6="graphics_nt_rus.cab",3
+URL7="ks_nt_rus.cab",3
+URL8="dshow_w2k_rus.cab",3
+URL9="setup_w2k_rus.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_Win2K,DirectX_Setup
+
+[DirectX_Win2K_SPA]
+AdminCheck=1
+DisplayName=%DirectX_Win2K_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3843,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_spa.cab",3
+URL2="dinput_w2k_81_spa.cab",3
+URL3="dplay_nt_spa.cab",3
+URL4="dshow_nt_spa.cab",3
+URL5="dxdiag_nt_spa.cab",3
+URL6="graphics_nt_spa.cab",3
+URL7="ks_nt_spa.cab",3
+URL8="dshow_w2k_spa.cab",3
+URL9="setup_w2k_spa.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_Win2K,DirectX_Setup
+
+[DirectX_Win2K_SWE]
+AdminCheck=1
+DisplayName=%DirectX_Win2K_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3842,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_swe.cab",3
+URL2="dinput_w2k_81_swe.cab",3
+URL3="dplay_nt_swe.cab",3
+URL4="dshow_nt_swe.cab",3
+URL5="dxdiag_nt_swe.cab",3
+URL6="graphics_nt_swe.cab",3
+URL7="ks_nt_swe.cab",3
+URL8="dshow_w2k_swe.cab",3
+URL9="setup_w2k_swe.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_Win2K,DirectX_Setup
+
+[DirectX_WinXP_ENG]
+AdminCheck=1
+DisplayName=%DirectX_WinXP_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=4138,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_eng.cab",3
+URL2="dinput_wxp_81_eng.cab",3
+URL3="dplay_nt_eng.cab",3
+URL4="dshow_nt_eng.cab",3
+URL5="dxdiag_nt_eng.cab",3
+URL6="graphics_nt_eng.cab",3
+URL7="ks_nt_eng.cab",3
+URL8="dshow_wxp_eng.cab",3
+URL9="setup_wxp_eng.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_WinXP,DirectX_Setup
+
+[DirectX_WinXP_JPN]
+AdminCheck=1
+DisplayName=%DirectX_WinXP_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3891,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_jpn.cab",3
+URL2="dinput_wxp_81_jpn.cab",3
+URL3="dplay_nt_jpn.cab",3
+URL4="dshow_nt_jpn.cab",3
+URL5="dxdiag_nt_jpn.cab",3
+URL6="graphics_nt_jpn.cab",3
+URL7="ks_nt_jpn.cab",3
+URL8="dshow_wxp_jpn.cab",3
+URL9="setup_wxp_jpn.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_WinXP,DirectX_Setup
+
+[DirectX_WinXP_BRZ]
+AdminCheck=1
+DisplayName=%DirectX_WinXP_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3893,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_brz.cab",3
+URL2="dinput_wxp_81_brz.cab",3
+URL3="dplay_nt_brz.cab",3
+URL4="dshow_nt_brz.cab",3
+URL5="dxdiag_nt_brz.cab",3
+URL6="graphics_nt_brz.cab",3
+URL7="ks_nt_brz.cab",3
+URL8="dshow_wxp_brz.cab",3
+URL9="setup_wxp_brz.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_WinXP,DirectX_Setup
+
+[DirectX_WinXP_CHS]
+AdminCheck=1
+DisplayName=%DirectX_WinXP_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3887,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_chs.cab",3
+URL2="dinput_wxp_81_chs.cab",3
+URL3="dplay_nt_chs.cab",3
+URL4="dshow_nt_chs.cab",3
+URL5="dxdiag_nt_chs.cab",3
+URL6="graphics_nt_chs.cab",3
+URL7="ks_nt_chs.cab",3
+URL8="dshow_wxp_chs.cab",3
+URL9="setup_wxp_chs.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_WinXP,DirectX_Setup
+
+[DirectX_WinXP_CHT]
+AdminCheck=1
+DisplayName=%DirectX_WinXP_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3887,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_cht.cab",3
+URL2="dinput_wxp_81_cht.cab",3
+URL3="dplay_nt_cht.cab",3
+URL4="dshow_nt_cht.cab",3
+URL5="dxdiag_nt_cht.cab",3
+URL6="graphics_nt_cht.cab",3
+URL7="ks_nt_cht.cab",3
+URL8="dshow_wxp_cht.cab",3
+URL9="setup_wxp_cht.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_WinXP,DirectX_Setup
+
+[DirectX_WinXP_CZE]
+AdminCheck=1
+DisplayName=%DirectX_WinXP_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3895,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_cze.cab",3
+URL2="dinput_wxp_81_cze.cab",3
+URL3="dplay_nt_cze.cab",3
+URL4="dshow_nt_cze.cab",3
+URL5="dxdiag_nt_cze.cab",3
+URL6="graphics_nt_cze.cab",3
+URL7="ks_nt_cze.cab",3
+URL8="dshow_wxp_cze.cab",3
+URL9="setup_wxp_cze.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_WinXP,DirectX_Setup
+
+[DirectX_WinXP_DUT]
+AdminCheck=1
+DisplayName=%DirectX_WinXP_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3894,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_dut.cab",3
+URL2="dinput_wxp_81_dut.cab",3
+URL3="dplay_nt_dut.cab",3
+URL4="dshow_nt_dut.cab",3
+URL5="dxdiag_nt_dut.cab",3
+URL6="graphics_nt_dut.cab",3
+URL7="ks_nt_dut.cab",3
+URL8="dshow_wxp_dut.cab",3
+URL9="setup_wxp_dut.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_WinXP,DirectX_Setup
+
+[DirectX_WinXP_FRN]
+AdminCheck=1
+DisplayName=%DirectX_WinXP_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3895,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_frn.cab",3
+URL2="dinput_wxp_81_frn.cab",3
+URL3="dplay_nt_frn.cab",3
+URL4="dshow_nt_frn.cab",3
+URL5="dxdiag_nt_frn.cab",3
+URL6="graphics_nt_frn.cab",3
+URL7="ks_nt_frn.cab",3
+URL8="dshow_wxp_frn.cab",3
+URL9="setup_wxp_frn.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_WinXP,DirectX_Setup
+
+[DirectX_WinXP_GER]
+AdminCheck=1
+DisplayName=%DirectX_WinXP_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3899,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_ger.cab",3
+URL2="dinput_wxp_81_ger.cab",3
+URL3="dplay_nt_ger.cab",3
+URL4="dshow_nt_ger.cab",3
+URL5="dxdiag_nt_ger.cab",3
+URL6="graphics_nt_ger.cab",3
+URL7="ks_nt_ger.cab",3
+URL8="dshow_wxp_ger.cab",3
+URL9="setup_wxp_ger.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_WinXP,DirectX_Setup
+
+[DirectX_WinXP_ITN]
+AdminCheck=1
+DisplayName=%DirectX_WinXP_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3893,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_itn.cab",3
+URL2="dinput_wxp_81_itn.cab",3
+URL3="dplay_nt_itn.cab",3
+URL4="dshow_nt_itn.cab",3
+URL5="dxdiag_nt_itn.cab",3
+URL6="graphics_nt_itn.cab",3
+URL7="ks_nt_itn.cab",3
+URL8="dshow_wxp_itn.cab",3
+URL9="setup_wxp_itn.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_WinXP,DirectX_Setup
+
+[DirectX_WinXP_KOR]
+AdminCheck=1
+DisplayName=%DirectX_WinXP_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3890,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_kor.cab",3
+URL2="dinput_wxp_81_kor.cab",3
+URL3="dplay_nt_kor.cab",3
+URL4="dshow_nt_kor.cab",3
+URL5="dxdiag_nt_kor.cab",3
+URL6="graphics_nt_kor.cab",3
+URL7="ks_nt_kor.cab",3
+URL8="dshow_wxp_kor.cab",3
+URL9="setup_wxp_kor.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_WinXP,DirectX_Setup
+
+[DirectX_WinXP_POL]
+AdminCheck=1
+DisplayName=%DirectX_WinXP_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3897,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_pol.cab",3
+URL2="dinput_wxp_81_pol.cab",3
+URL3="dplay_nt_pol.cab",3
+URL4="dshow_nt_pol.cab",3
+URL5="dxdiag_nt_pol.cab",3
+URL6="graphics_nt_pol.cab",3
+URL7="ks_nt_pol.cab",3
+URL8="dshow_wxp_pol.cab",3
+URL9="setup_wxp_pol.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_WinXP,DirectX_Setup
+
+[DirectX_WinXP_RUS]
+AdminCheck=1
+DisplayName=%DirectX_WinXP_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3895,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_rus.cab",3
+URL2="dinput_wxp_81_rus.cab",3
+URL3="dplay_nt_rus.cab",3
+URL4="dshow_nt_rus.cab",3
+URL5="dxdiag_nt_rus.cab",3
+URL6="graphics_nt_rus.cab",3
+URL7="ks_nt_rus.cab",3
+URL8="dshow_wxp_rus.cab",3
+URL9="setup_wxp_rus.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_WinXP,DirectX_Setup
+
+[DirectX_WinXP_SPA]
+AdminCheck=1
+DisplayName=%DirectX_WinXP_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3893,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_spa.cab",3
+URL2="dinput_wxp_81_spa.cab",3
+URL3="dplay_nt_spa.cab",3
+URL4="dshow_nt_spa.cab",3
+URL5="dxdiag_nt_spa.cab",3
+URL6="graphics_nt_spa.cab",3
+URL7="ks_nt_spa.cab",3
+URL8="dshow_wxp_spa.cab",3
+URL9="setup_wxp_spa.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_WinXP,DirectX_Setup
+
+[DirectX_WinXP_SWE]
+AdminCheck=1
+DisplayName=%DirectX_WinXP_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3892,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_swe.cab",3
+URL2="dinput_wxp_81_swe.cab",3
+URL3="dplay_nt_swe.cab",3
+URL4="dshow_nt_swe.cab",3
+URL5="dxdiag_nt_swe.cab",3
+URL6="graphics_nt_swe.cab",3
+URL7="ks_nt_swe.cab",3
+URL8="dshow_wxp_swe.cab",3
+URL9="setup_wxp_swe.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_WinXP,DirectX_Setup
+
+[DirectX_NETSRV]
+AdminCheck=1
+DisplayName=%DirectX_NETSRV%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1093,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="setup_netsrv.cab",3
+URL2="graphics_wxp.cab",3
+URL3="ks_nt.cab",3
+URL4="bda_wxp.cab",3
+Version="9,29,1974,0"
+
+[DirectX_NETSRV_ENG]
+AdminCheck=1
+DisplayName=%DirectX_NETSRV_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3662,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_eng.cab",3
+URL2="dplay_nt_eng.cab",3
+URL3="dshow_nt_eng.cab",3
+URL4="dxdiag_nt_eng.cab",3
+URL5="graphics_nt_eng.cab",3
+URL6="ks_nt_eng.cab",3
+URL7="dshow_wxp_eng.cab",3
+URL8="setup_netsrv_eng.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_NETSRV,DirectX_Setup
+
+[DirectX_NETSRV_JPN]
+AdminCheck=1
+DisplayName=%DirectX_NETSRV_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3457,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_jpn.cab",3
+URL2="dplay_nt_jpn.cab",3
+URL3="dshow_nt_jpn.cab",3
+URL4="dxdiag_nt_jpn.cab",3
+URL5="graphics_nt_jpn.cab",3
+URL6="ks_nt_jpn.cab",3
+URL7="dshow_wxp_jpn.cab",3
+URL8="setup_netsrv_jpn.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_NETSRV,DirectX_Setup
+
+[DirectX_NETSRV_BRZ]
+AdminCheck=1
+DisplayName=%DirectX_NETSRV_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3456,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_brz.cab",3
+URL2="dplay_nt_brz.cab",3
+URL3="dshow_nt_brz.cab",3
+URL4="dxdiag_nt_brz.cab",3
+URL5="graphics_nt_brz.cab",3
+URL6="ks_nt_brz.cab",3
+URL7="dshow_wxp_brz.cab",3
+URL8="setup_netsrv_brz.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_NETSRV,DirectX_Setup
+
+[DirectX_NETSRV_CHS]
+AdminCheck=1
+DisplayName=%DirectX_NETSRV_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3455,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_chs.cab",3
+URL2="dplay_nt_chs.cab",3
+URL3="dshow_nt_chs.cab",3
+URL4="dxdiag_nt_chs.cab",3
+URL5="graphics_nt_chs.cab",3
+URL6="ks_nt_chs.cab",3
+URL7="dshow_wxp_chs.cab",3
+URL8="setup_netsrv_chs.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_NETSRV,DirectX_Setup
+
+[DirectX_NETSRV_CHT]
+AdminCheck=1
+DisplayName=%DirectX_NETSRV_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3455,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_cht.cab",3
+URL2="dplay_nt_cht.cab",3
+URL3="dshow_nt_cht.cab",3
+URL4="dxdiag_nt_cht.cab",3
+URL5="graphics_nt_cht.cab",3
+URL6="ks_nt_cht.cab",3
+URL7="dshow_wxp_cht.cab",3
+URL8="setup_netsrv_cht.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_NETSRV,DirectX_Setup
+
+[DirectX_NETSRV_CZE]
+AdminCheck=1
+DisplayName=%DirectX_NETSRV_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3456,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_cze.cab",3
+URL2="dplay_nt_cze.cab",3
+URL3="dshow_nt_cze.cab",3
+URL4="dxdiag_nt_cze.cab",3
+URL5="graphics_nt_cze.cab",3
+URL6="ks_nt_cze.cab",3
+URL7="dshow_wxp_cze.cab",3
+URL8="setup_netsrv_cze.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_NETSRV,DirectX_Setup
+
+[DirectX_NETSRV_DUT]
+AdminCheck=1
+DisplayName=%DirectX_NETSRV_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3457,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_dut.cab",3
+URL2="dplay_nt_dut.cab",3
+URL3="dshow_nt_dut.cab",3
+URL4="dxdiag_nt_dut.cab",3
+URL5="graphics_nt_dut.cab",3
+URL6="ks_nt_dut.cab",3
+URL7="dshow_wxp_dut.cab",3
+URL8="setup_netsrv_dut.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_NETSRV,DirectX_Setup
+
+[DirectX_NETSRV_FRN]
+AdminCheck=1
+DisplayName=%DirectX_NETSRV_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3458,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_frn.cab",3
+URL2="dplay_nt_frn.cab",3
+URL3="dshow_nt_frn.cab",3
+URL4="dxdiag_nt_frn.cab",3
+URL5="graphics_nt_frn.cab",3
+URL6="ks_nt_frn.cab",3
+URL7="dshow_wxp_frn.cab",3
+URL8="setup_netsrv_frn.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_NETSRV,DirectX_Setup
+
+[DirectX_NETSRV_GER]
+AdminCheck=1
+DisplayName=%DirectX_NETSRV_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3461,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_ger.cab",3
+URL2="dplay_nt_ger.cab",3
+URL3="dshow_nt_ger.cab",3
+URL4="dxdiag_nt_ger.cab",3
+URL5="graphics_nt_ger.cab",3
+URL6="ks_nt_ger.cab",3
+URL7="dshow_wxp_ger.cab",3
+URL8="setup_netsrv_ger.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_NETSRV,DirectX_Setup
+
+[DirectX_NETSRV_ITN]
+AdminCheck=1
+DisplayName=%DirectX_NETSRV_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3456,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_itn.cab",3
+URL2="dplay_nt_itn.cab",3
+URL3="dshow_nt_itn.cab",3
+URL4="dxdiag_nt_itn.cab",3
+URL5="graphics_nt_itn.cab",3
+URL6="ks_nt_itn.cab",3
+URL7="dshow_wxp_itn.cab",3
+URL8="setup_netsrv_itn.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_NETSRV,DirectX_Setup
+
+[DirectX_NETSRV_KOR]
+AdminCheck=1
+DisplayName=%DirectX_NETSRV_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3456,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_kor.cab",3
+URL2="dplay_nt_kor.cab",3
+URL3="dshow_nt_kor.cab",3
+URL4="dxdiag_nt_kor.cab",3
+URL5="graphics_nt_kor.cab",3
+URL6="ks_nt_kor.cab",3
+URL7="dshow_wxp_kor.cab",3
+URL8="setup_netsrv_kor.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_NETSRV,DirectX_Setup
+
+[DirectX_NETSRV_POL]
+AdminCheck=1
+DisplayName=%DirectX_NETSRV_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3458,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_pol.cab",3
+URL2="dplay_nt_pol.cab",3
+URL3="dshow_nt_pol.cab",3
+URL4="dxdiag_nt_pol.cab",3
+URL5="graphics_nt_pol.cab",3
+URL6="ks_nt_pol.cab",3
+URL7="dshow_wxp_pol.cab",3
+URL8="setup_netsrv_pol.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_NETSRV,DirectX_Setup
+
+[DirectX_NETSRV_RUS]
+AdminCheck=1
+DisplayName=%DirectX_NETSRV_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3457,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_rus.cab",3
+URL2="dplay_nt_rus.cab",3
+URL3="dshow_nt_rus.cab",3
+URL4="dxdiag_nt_rus.cab",3
+URL5="graphics_nt_rus.cab",3
+URL6="ks_nt_rus.cab",3
+URL7="dshow_wxp_rus.cab",3
+URL8="setup_netsrv_rus.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_NETSRV,DirectX_Setup
+
+[DirectX_NETSRV_SPA]
+AdminCheck=1
+DisplayName=%DirectX_NETSRV_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3456,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_spa.cab",3
+URL2="dplay_nt_spa.cab",3
+URL3="dshow_nt_spa.cab",3
+URL4="dxdiag_nt_spa.cab",3
+URL5="graphics_nt_spa.cab",3
+URL6="ks_nt_spa.cab",3
+URL7="dshow_wxp_spa.cab",3
+URL8="setup_netsrv_spa.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_NETSRV,DirectX_Setup
+
+[DirectX_NETSRV_SWE]
+AdminCheck=1
+DisplayName=%DirectX_NETSRV_LOC%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=3455,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_nt_swe.cab",3
+URL2="dplay_nt_swe.cab",3
+URL3="dshow_nt_swe.cab",3
+URL4="dxdiag_nt_swe.cab",3
+URL5="graphics_nt_swe.cab",3
+URL6="ks_nt_swe.cab",3
+URL7="dshow_wxp_swe.cab",3
+URL8="setup_netsrv_swe.cab",3
+Version="9,29,1974,0"
+Dependencies=DirectX_WinNT,DirectX_NETSRV,DirectX_Setup
+
+[DirectX_Win98_DLS]
+DisplayName=%DirectX_Win98_DLS%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen
+Group=DirectX
+Size=2994,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="audio_w9x_81.cab",3
+Version="9,29,1974,0"
+
+[DirectX_DIMaps]
+AdminCheck=1
+DisplayName=%DirectX_DIMaps%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen,NT5
+Group=DirectX
+Size=1912,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="dinput_all_81.cab",3
+Version="9,29,1974,0"
+
+[Managed_DirectX]
+AdminCheck=1
+DisplayName=%Managed_DirectX%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen,NT5
+Group=DirectX
+Size=960,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="manageddx.cab",3
+Version="9,29,1974,0"
+
+[DirectX_Setup]
+AdminCheck=1
+DisplayName=%DirectX_Setup%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen,NT5
+Group=DirectX
+Size=31,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="setup_all.cab",3
+Version="9,29,1974,0"
+
+[DXUpdate]
+AdminCheck=1
+DisplayName=%DirectX_Setup%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=Win98,Millen,NT5
+Group=DirectX
+Size=81,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="dxupdate.cab",3
+Version="9,29,1974,0"
+
+
+[Strings]
+SetupTitle        = "Programa de InstalaÁ„o do DirectX WEB"
+
+DirectX           = "DirectX 9.0"
+
+DirectX_Win9X     = "Componentes comuns do DirectX 9.0 para Windows 98 e Windows ME"
+DirectX_Win98     = "DirectX 9.0 para Windows 98"
+DirectX_WinME     = "DirectX 9.0 para Windows ME"
+
+DirectX_WinNT      = "Componentes comuns do DirectX 9.0 para Windows 2000, Windows XP e famÌlia Windows Server 2003"
+DirectX_Win2K      = "Componentes comuns do DirectX 9.0 para Windows 2000"
+DirectX_Win2K_LOC  = "DirectX 9.0 para Windows 2000"
+DirectX_WinXP      = "Componentes comuns do DirectX 9.0 para Windows XP"
+DirectX_WinXP_LOC  = "DirectX 9.0 para Windows XP"
+DirectX_NETSRV     = "Componentes comuns do DirectX 9.0 para famÌlia Windows Server 2003"
+DirectX_NETSRV_LOC = "DirectX 9.0 para famÌlia Windows Server 2003"
+
+DirectX_Win98_DLS = "Conjunto de MIDI DLS"
+DirectX_DIMaps    = "Imagens do DirectX DInput"
+Managed_DirectX   = "Componentes Managed DirectX"
+
+DirectX_Setup     = "Programa de InstalaÁ„o do DirectX 9.0"
+
+DirectX_Desc      = "Microsoft DirectX 9.0"
+
+
+[Strings.chs]
+SetupTitle        = "DirectX WEB ∞≤◊∞≥Ã–Ú"
+
+DirectX           = "DirectX 9.0"
+
+DirectX_Win9X     = "Œ™ Windows 98 ∫Õ Windows ME À˘…Ëº∆µƒπ´π≤◊Èº˛"
+DirectX_Win98     = "”√”⁄ Windows 98 µƒ DirectX 9.0"
+DirectX_WinME     = "”√”⁄ Windows ME µƒ DirectX 9.0"
+
+DirectX_WinNT      = "”√”⁄ Windows 2000£¨Windows XP ∫Õ Windows server 2003 º“◊Âµƒ DirectX 9.0 π´π≤◊Èº˛"
+DirectX_Win2K      = "”√”⁄ Windows 2000 µƒ DirectX 9.0 π´π≤◊Èº˛"
+DirectX_Win2K_LOC  = "÷ß≥÷ Windows 2000 µƒ DirectX 9.0"
+DirectX_WinXP      = "”√”⁄ Windows XP µƒ DirectX 9.0 π´π≤◊Èº˛"
+DirectX_WinXP_LOC  = "”√”⁄ Windows XP µƒ DirectX 9.0"
+DirectX_NETSRV     = "”√”⁄ Windows Server 2003 º“◊Âµƒ DirectX 9.0 π´π≤◊Èº˛"
+DirectX_NETSRV_LOC = "”√”⁄ Windows Server 2003 º“◊Âµƒ DirectX 9.0"
+
+DirectX_Win98_DLS = "MIDI DLS ºØ∫œ"
+DirectX_DIMaps    = "DirectX DInput ”≥œÒ"
+Managed_DirectX   = "π‹¿Ìµƒ DirectX ◊Èº˛"
+
+DirectX_Setup     = "DirectX 9.0 ∞≤◊∞≥Ã–Ú"
+
+DirectX_Desc      = "Microsoft DirectX 9.0"
+
+
+[Strings.cht]
+SetupTitle        = "DirectX WEB ¶w∏Àµ{¶°"
+
+DirectX           = "DirectX 9.0"
+
+DirectX_Win9X     = "Windows 98 ©M Windows ME §Ω•Œ§∏•Û™∫ DirectX 9.0"
+DirectX_Win98     = "Windows 98 ™∫ DirectX 9.0"
+DirectX_WinME     = "Windows ME ™∫ DirectX 9.0"
+
+DirectX_WinNT      = "Windows 2000°BWindows XP ©M Windows Server 2003 ®t¶C≤£´~§Ω•Œ§∏•Û™∫ DirectX 9.0"
+DirectX_Win2K      = "Windows 2000 §Ω•Œ§∏•Û™∫ DirectX 9.0"
+DirectX_Win2K_LOC  = "Windows 2000 ™∫ DirectX 9.0"
+DirectX_WinXP      = "Windows XP §Ω•Œ§∏•Û™∫ DirectX 9.0"
+DirectX_WinXP_LOC  = "Windows XP ™∫ DirectX 9.0"
+DirectX_NETSRV     = "Windows Server 2003 ®t¶C≤£´~§Ω•Œ§∏•Û™∫ DirectX 9.0"
+DirectX_NETSRV_LOC = "Windows Server 2003 ®t¶C≤£´~™∫ DirectX 9.0"
+
+DirectX_Win98_DLS = "MIDI DLS ∂∞¶X"
+DirectX_DIMaps    = "DirectX DInput ºvπ≥"
+Managed_DirectX   = "®¸∫ﬁ≤z™∫ DirectX §∏•Û"
+
+DirectX_Setup     = "DirectX 9.0 ¶w∏Àµ{¶°"
+
+DirectX_Desc      = "Microsoft DirectX 9.0"
+
+
+[Strings.cze]
+SetupTitle        = "Webov· instalace rozhranÌ DirectX"
+
+DirectX           = "DirectX 9.0"
+
+DirectX_Win9X     = "SpoleËnÈ souË·sti rozhranÌ DirectX 9.0 pro systÈmy Windows 98 a Windows ME"
+DirectX_Win98     = "RozhranÌ DirectX 9.0 pro systÈm Windows 98"
+DirectX_WinME     = "RozhranÌ DirectX 9.0 pro systÈm Windows ME"
+
+DirectX_WinNT      = "SpoleËnÈ souË·sti rozhranÌ DirectX 9.0 pro systÈmy Windows 2000, Windows XP a Windows Server 2003"
+DirectX_Win2K      = "SpoleËnÈ souË·sti rozhranÌ DirectX 9.0 pro systÈm Windows 2000"
+DirectX_Win2K_LOC  = "RozhranÌ DirectX 9.0 pro systÈm Windows 2000"
+DirectX_WinXP      = "SpoleËnÈ souË·sti rozhranÌ DirectX 9.0 pro systÈm Windows XP"
+DirectX_WinXP_LOC  = "RozhranÌ DirectX 9.0 pro systÈm Windows XP"
+DirectX_NETSRV     = "SpoleËnÈ souË·sti rozhranÌ DirectX 9.0 pro systÈm Windows Server 2003"
+DirectX_NETSRV_LOC = "RozhranÌ DirectX 9.0 pro systÈm Windows Server 2003"
+
+DirectX_Win98_DLS = "Sada MIDI DLS"
+DirectX_DIMaps    = "Obr·zky rozhranÌ DirectX DirectInput"
+Managed_DirectX   = "SpravovanÈ souË·sti rozhranÌ DirectX"
+
+DirectX_Setup     = "InstalaËnÌ program rozhranÌ DirectX 9.0"
+
+DirectX_Desc      = "Microsoft DirectX 9.0"
+
+
+[Strings.dut]
+SetupTitle        = "DirectX WEB Setup"
+
+DirectX           = "DirectX 9.0"
+
+DirectX_Win9X     = "Algemene onderdelen van DirectX 9.0 voor Windows 98 en Windows ME"
+DirectX_Win98     = "DirectX 9.0 voor Windows 98"
+DirectX_WinME     = "DirectX 9.0 voor Windows ME"
+
+DirectX_WinNT      = "Algemene onderdelen van DirectX 9.0 voor Windows 2000, Windows XP en de Windows Server 2003-familie"
+DirectX_Win2K      = "Algemene onderdelen van DirectX 9.0 voor Windows 2000"
+DirectX_Win2K_LOC  = "DirectX 9.0 voor Windows 2000"
+DirectX_WinXP      = "Algemene onderdelen van DirectX 9.0 voor Windows XP"
+DirectX_WinXP_LOC  = "DirectX 9.0 voor Windows XP"
+DirectX_NETSRV     = "Algemene onderdelen van DirectX 9.0 voor de Windows Server 2003-familie"
+DirectX_NETSRV_LOC = "DirectX 9.0 voor de Windows Server 2003-familie"
+
+DirectX_Win98_DLS = "MIDI DLS-verzameling"
+DirectX_DIMaps    = "Afbeeldingen van DirectX DInput"
+Managed_DirectX   = "Onderdelen van Managed DirectX"
+
+DirectX_Setup     = "DirectX 9.0 Setup"
+
+DirectX_Desc      = "Microsoft DirectX 9.0"
+
+
+[Strings]
+SetupTitle        = "Installation Web de DirectX"
+
+DirectX           = "DirectX 9.0"
+
+DirectX_Win9X     = "Composants communs DirectX 9.0 pour Windows†98 et Windows†ME"
+DirectX_Win98     = "DirectX†9.0 pour Windows†98"
+DirectX_WinME     = "DirectX†9.0 pour Windows†ME"
+
+DirectX_WinNT      = "Composants communs DirectX†9.0 pour Windows†2000, Windows†XP et Windows†Server 2003"
+DirectX_Win2K      = "Composants communs DirectX†9.0 pour Windows†2000"
+DirectX_Win2K_LOC  = "DirectX†9.0 pour Windows†2000"
+DirectX_WinXP      = "Composants communs DirectX 9.0 pour Windows XP"
+DirectX_WinXP_LOC  = "DirectX 9.0 pour Windows XP"
+DirectX_NETSRV     = "Composants communs DirectX 9.0 pour la famille Windows Server 2003"
+DirectX_NETSRV_LOC = "DirectX 9.0 pour la famille Windows Server 2003"
+
+DirectX_Win98_DLS = "Collection DLS MIDI"
+DirectX_DIMaps    = "Images DirectX DInput"
+Managed_DirectX   = "Composants Managed DirectX"
+
+DirectX_Setup     = "Installation de DirectX†9.0"
+
+DirectX_Desc      = "Microsoft DirectX†9.0"
+
+
+[Strings.ger]
+SetupTitle        = "DirectX WEB-Setup"
+
+DirectX           = "DirectX 9.0"
+
+DirectX_Win9X     = "Standardkomponenten f¸r DirectX 9.0 f¸r Windows 98 und Windows ME"
+DirectX_Win98     = "DirectX 9.0 f¸r Windows 98"
+DirectX_WinME     = "DirectX 9.0 f¸r Windows ME"
+
+DirectX_WinNT      = "Standardkomponenten f¸r DirectX 9.0 f¸r Windows 2000, Windows XP und Windows Server 2003"
+DirectX_Win2K      = "Standardkomponenten f¸r DirectX 9.0 f¸r Windows 2000"
+DirectX_Win2K_LOC  = "DirectX 9.0 f¸r Windows 2000"
+DirectX_WinXP      = "Standardkomponenten f¸r DirectX 9.0 f¸r Windows XP"
+DirectX_WinXP_LOC  = "DirectX 9.0 f¸r Windows XP"
+DirectX_NETSRV     = "Standardkomponenten f¸r DirectX 9.0 f¸r Windows Server 2003"
+DirectX_NETSRV_LOC = "DirectX 9.0 f¸r Windows Server 2003"
+
+DirectX_Win98_DLS = "MIDI-DLS-Sammlung"
+DirectX_DIMaps    = "DirectX DInput-Abbilder"
+Managed_DirectX   = "Managed DirectX-Komponenten"
+
+DirectX_Setup     = "DirectX 9.0-Setup"
+
+DirectX_Desc      = "Microsoft DirectX 9.0"
+
+
+[Strings.itn]
+SetupTitle        = "Installazione Web di DirectX"
+
+DirectX           = "DirectX 9.0"
+
+DirectX_Win9X     = "Componenti comuni di DirectX 9.0 per Windows 98 e Windows ME"
+DirectX_Win98     = "DirectX 9.0 per Windows 98"
+DirectX_WinME     = "DirectX 9.0 per Windows ME"
+
+DirectX_WinNT      = "Componenti server comuni di DirectX 9.0 per Windows 2000, Windows XP e Windows Server 2003"
+DirectX_Win2K      = "Componenti comuni di DirectX 9.0 per Windows 2000"
+DirectX_Win2K_LOC  = "DirectX 9.0 per Windows 2000"
+DirectX_WinXP      = "Componenti comuni di DirectX 9.0 per Windows XP"
+DirectX_WinXP_LOC  = "DirectX 9.0 per Windows XP"
+DirectX_NETSRV     = "Componenti comuni di DirectX 9.0 per Windows Server 2003"
+DirectX_NETSRV_LOC = "DirectX 9.0 per Windows Server 2003"
+
+DirectX_Win98_DLS = "Insieme MIDI DLS"
+DirectX_DIMaps    = "Immagini DirectX DInput"
+Managed_DirectX   = "Componenti gestiti di DirectX"
+
+DirectX_Setup     = "Installazione di DirectX 9.0"
+
+DirectX_Desc      = "Microsoft DirectX 9.0"
+
+
+[Strings.jpn]
+SetupTitle        = "DirectX WEB ÉZÉbÉgÉAÉbÉv"
+
+DirectX           = "DirectX 9.0"
+
+DirectX_Win9X     = "Windows 98 Ç®ÇÊÇ— Windows ME ÇÃã§í ÉRÉìÉ|Å[ÉlÉìÉgóp DirectX 9.0"
+DirectX_Win98     = "Windows 98 óp DirectX 9.0"
+DirectX_WinME     = "Windows ME óp DirectX 9.0"
+
+DirectX_WinNT      = "Windows 2000ÅAWindows XP Ç®ÇÊÇ— Windows Server 2003 ÉtÉ@É~ÉäÇÃã§í ÉRÉìÉ|Å[ÉlÉìÉgóp DirectX 9.0"
+DirectX_Win2K      = "Windows 2000 ÇÃã§í ÉRÉìÉ|Å[ÉlÉìÉgóp DirectX 9.0"
+DirectX_Win2K_LOC  = "Windows 2000 óp DirectX 9.0"
+DirectX_WinXP      = "Windows XP óp DirectX 9.0 ã§í ÉRÉìÉ|Å[ÉlÉìÉg"
+DirectX_WinXP_LOC  = "Windows XP óp DirectX 9.0"
+DirectX_NETSRV     = "Windows Server 2003 ÉtÉ@É~Éäóp DirectX 9.0 ã§í ÉRÉìÉ|Å[ÉlÉìÉg"
+DirectX_NETSRV_LOC = "Windows Server 2003 ÉtÉ@É~Éäóp DirectX 9.0"
+
+DirectX_Win98_DLS = "MIDI DLS ÉRÉåÉNÉVÉáÉì"
+DirectX_DIMaps    = "DirectX DInput ÉCÉÅÅ[ÉW"
+Managed_DirectX   = "Managed DirectX ÉRÉìÉ|Å[ÉlÉìÉg"
+
+DirectX_Setup     = "DirectX 9.0 ÉZÉbÉgÉAÉbÉv"
+
+DirectX_Desc      = "Microsoft DirectX 9.0"
+
+
+[Strings.kor]
+SetupTitle        = "DirectX WEB º≥ƒ°"
+
+DirectX           = "DirectX 9.0"
+
+DirectX_Win9X     = "Windows 98 π◊ Windows ME ∞¯øÎ ±∏º∫ ø‰º“øÎ DirectX 9.0"
+DirectX_Win98     = "Windows 98øÎ DirectX 9.0"
+DirectX_WinME     = "Windows MEøÎ DirectX 9.0"
+
+DirectX_WinNT      = "Windows 2000, Windows XP π◊ Windows Server 2003 ∆–π–∏Æ ∞¯øÎ ±∏º∫ ø‰º“øÎ DirectX 9.0"
+DirectX_Win2K      = "Windows 2000 ∞¯øÎ ±∏º∫ ø‰º“øÎ DirectX 9.0"
+DirectX_Win2K_LOC  = "Windows 2000øÎ DirectX 9.0"
+DirectX_WinXP      = "Windows XP ∞¯øÎ ±∏º∫ ø‰º“øÎ DirectX 9.0"
+DirectX_WinXP_LOC  = "Windows XPøÎ DirectX 9.0"
+DirectX_NETSRV     = "Windows Server 2003 ∆–π–∏Æ ∞¯øÎ ±∏º∫ ø‰º“øÎ DirectX 9.0"
+DirectX_NETSRV_LOC = "Windows Server 2003 ∆–π–∏ÆøÎ DirectX 9.0"
+
+DirectX_Win98_DLS = "MIDI DLS ƒ√∑∫º«"
+DirectX_DIMaps    = "DirectX DInput ¿ÃπÃ¡ˆ"
+Managed_DirectX   = "∞¸∏Æµ» DirectX ±∏º∫ ø‰º“"
+
+DirectX_Setup     = "DirectX 9.0 º≥ƒ°"
+
+DirectX_Desc      = "Microsoft DirectX 9.0"
+
+
+[Strings.pol]
+SetupTitle        = "Instalacja programu DirectX w sieci WEB"
+
+DirectX           = "DirectX 9.0"
+
+DirectX_Win9X     = "WspÛlne sk≥adniki programu DirectX 9.0 dla systemÛw Windows 98 i Windows ME"
+DirectX_Win98     = "Program DirectX 9.0 dla systemu Windows 98"
+DirectX_WinME     = "Program DirectX 9.0 dla systemu Windows ME"
+
+DirectX_WinNT      = "WspÛlne sk≥adniki programu DirectX 9.0 dla systemÛw Windows 2000, Windows XP i rodziny systemÛw Windows Server 2003"
+DirectX_Win2K      = "WspÛlne sk≥adniki programu DirectX 9.0 dla systemu Windows 2000"
+DirectX_Win2K_LOC  = "Program DirectX 9.0 dla systemu Windows 2000"
+DirectX_WinXP      = "WspÛlne sk≥adniki programu DirectX 9.0 dla systemu Windows XP ó sk≥adniki wspÛlne"
+DirectX_WinXP_LOC  = "Program DirectX 9.0 dla systemu Windows XP"
+DirectX_NETSRV     = "WspÛlne sk≥adniki programu DirectX 9.0 dla rodziny systemÛw Windows Server 2003"
+DirectX_NETSRV_LOC = "Program DirectX 9.0 dla rodziny systemÛw Windows Server 2003"
+
+DirectX_Win98_DLS = "Kolekcja MIDI DLS"
+DirectX_DIMaps    = "Obrazy DirectX DInput"
+Managed_DirectX   = "Sk≥adniki Managed DirectX"
+
+DirectX_Setup     = "Instalator programu DirectX 9.0"
+
+DirectX_Desc      = "Microsoft DirectX 9.0"
+
+
+[Strings.rus]
+SetupTitle        = "”ÒÚ‡ÌÓ‚Í‡ DirectX WEB"
+
+DirectX           = "DirectX 9.0"
+
+DirectX_Win9X     = "Œ·˘ËÂ ÍÓÏÔÓÌÂÌÚ˚ DirectX 9.0 ‰Îˇ Windows 98 Ë Windows ME"
+DirectX_Win98     = "DirectX 9.0 ‰Îˇ Windows 98"
+DirectX_WinME     = "DirectX 9.0 ‰Îˇ Windows ME"
+
+DirectX_WinNT      = "Œ·˘ËÂ ÍÓÏÔÓÌÂÌÚ˚ DirectX 9.0 ‰Îˇ Windows 2000, Windows XP Ë ÒÂÏÂÈÒÚ‚‡ ÒÂ‚ÂÓ‚ Windows Server 2003"
+DirectX_Win2K      = "Œ·˘ËÂ ÍÓÏÔÓÌÂÌÚ˚ DirectX 9.0 ‰Îˇ Windows 2000"
+DirectX_Win2K_LOC  = "DirectX 9.0 ‰Îˇ Windows 2000"
+DirectX_WinXP      = "Œ·˘ËÂ ÍÓÏÔÓÌÂÌÚ˚ DirectX 9.0 ‰Îˇ Windows XP"
+DirectX_WinXP_LOC  = "DirectX 9.0 ‰Îˇ Windows XP"
+DirectX_NETSRV     = "Œ·˘ËÂ ÍÓÏÔÓÌÂÌÚ˚ DirectX 9.0 ‰Îˇ ÒÂÏÂÈÒÚ‚‡ ÒÂ‚ÂÓ‚ Windows Server 2003"
+DirectX_NETSRV_LOC = "DirectX 9.0 ‰Îˇ ÒÂÏÂÈÒÚ‚‡ ÒÂ‚ÂÓ‚ Windows Server 2003"
+
+DirectX_Win98_DLS = "—ÂÏÂÈÒÚ‚Ó MIDI DLS"
+DirectX_DIMaps    = "–ËÒÛÌÍË DirectX DInput"
+Managed_DirectX   = "”Ô‡‚Îˇ˛˘ËÂ ÍÓÏÔÓÌÂÌÚ˚ DirectX"
+
+DirectX_Setup     = "”ÒÚ‡ÌÓ‚Í‡ DirectX 9.0"
+
+DirectX_Desc      = "Microsoft DirectX 9.0"
+
+
+[Strings.spa]
+SetupTitle        = "InstalaciÛn Web de DirectX"
+
+DirectX           = "DirectX 9.0"
+
+DirectX_Win9X     = "Componentes comunes de DirectX 9.0 para Windows 98 y Windows Millennium Edition"
+DirectX_Win98     = "DirectX 9.0 para Windows 98"
+DirectX_WinME     = "DirectX 9.0 para Windows Millennium Edition"
+
+DirectX_WinNT      = "Componentes comunes de DirectX 9.0 para Windows 2000, Windows XP y la familia de servidores de Windows Server 2003"
+DirectX_Win2K      = "Componentes comunes de DirectX 9.0 para Windows 2000"
+DirectX_Win2K_LOC  = "DirectX 9.0 para Windows 2000"
+DirectX_WinXP      = "Componentes comunes de DirectX 9.0 para Windows XP"
+DirectX_WinXP_LOC  = "DirectX 9.0 para Windows XP"
+DirectX_NETSRV     = "Componentes comunes de DirectX 9.0 para la familia de servidores de Windows Server 2003"
+DirectX_NETSRV_LOC = "DirectX 9.0 para la familia de servidores de Windows Server 2003"
+
+DirectX_Win98_DLS = "ColecciÛn MIDI DLS"
+DirectX_DIMaps    = "Im·genes de DirectX DInput"
+Managed_DirectX   = "Componentes de Managed DirectX"
+
+DirectX_Setup     = "InstalaciÛn de DirectX 9.0"
+
+DirectX_Desc      = "Microsoft DirectX 9.0"
+
+
+[Strings.swe]
+SetupTitle        = "Webbinstallation av DirectX"
+
+DirectX           = "DirectX 9.0"
+
+DirectX_Win9X     = "DirectX 9.0 fˆr vanliga Windows 98- och Windows ME-komponenter"
+DirectX_Win98     = "DirectX 9.0 fˆr Windows 98"
+DirectX_WinME     = "DirectX 9.0 fˆr Windows ME"
+
+DirectX_WinNT      = "DirectX 9.0 fˆr vanliga Windows 2000-, Windows XP- och Windows Server 2003-komponenter"
+DirectX_Win2K      = "DirectX 9.0 fˆr vanliga Windows 2000-komponenter"
+DirectX_Win2K_LOC  = "DirectX 9.0 fˆr Windows 2000"
+DirectX_WinXP      = "DirectX 9.0 fˆr vanliga Windows XP-komponenter"
+DirectX_WinXP_LOC  = "DirectX 9.0 fˆr Windows XP"
+DirectX_NETSRV     = "DirectX 9.0 fˆr vanliga Windows Server 2003-komponenter"
+DirectX_NETSRV_LOC = "DirectX 9.0 fˆr Windows Server 2003"
+
+DirectX_Win98_DLS = "MIDI DLS-samling"
+DirectX_DIMaps    = "DirectX DInput-bilder"
+Managed_DirectX   = "Hanterade DirectX-komponenter"
+
+DirectX_Setup     = "Installationsprogram fˆr DirectX 9.0"
+
+DirectX_Desc      = "Microsoft DirectX 9.0"
+
+
+[Strings.eng]
+SetupTitle        = "DirectX WEB Setup"
+
+DirectX           = "DirectX 9.0"
+
+DirectX_Win9X     = "DirectX 9.0 for Windows 98 and Windows ME common components"
+DirectX_Win98     = "DirectX 9.0 for Windows 98"
+DirectX_WinME     = "DirectX 9.0 for Windows ME"
+
+DirectX_WinNT      = "DirectX 9.0 for Windows 2000, Windows XP and Windows Server 2003 family common components"
+DirectX_Win2K      = "DirectX 9.0 for Windows 2000 common components"
+DirectX_Win2K_LOC  = "DirectX 9.0 for Windows 2000"
+DirectX_WinXP      = "DirectX 9.0 for Windows XP common components"
+DirectX_WinXP_LOC  = "DirectX 9.0 for Windows XP"
+DirectX_NETSRV     = "DirectX 9.0 for Windows Server 2003 family common components"
+DirectX_NETSRV_LOC = "DirectX 9.0 for Windows Server 2003 family"
+
+DirectX_Win98_DLS = "MIDI DLS Collection"
+DirectX_DIMaps    = "DirectX DInput images"
+Managed_DirectX   = "Managed DirectX components"
+
+DirectX_Setup     = "DirectX 9.0 setup"
+
+DirectX_Desc      = "Microsoft DirectX 9.0"
+

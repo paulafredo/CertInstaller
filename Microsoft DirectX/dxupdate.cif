@@ -1,0 +1,2299 @@
+
+[Version]
+Signature=$Chicago$
+DisplayName=%SetupTitle%
+MinFileSize=2000
+
+[DirectX]
+SectionType=Group
+Priority=100
+DisplayName=%DirectX%
+
+[DXUpdate_Feb2005_x86]
+DisplayName=%Feb2005%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=990,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Feb2005_d3dx9_24_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Feb2005_x64]
+DisplayName=%Feb2005%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1220,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Feb2005_d3dx9_24_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Apr2005_x86]
+DisplayName=%Apr2005%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1055,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Apr2005_d3dx9_25_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Apr2005_x64]
+DisplayName=%Apr2005%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1317,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Apr2005_d3dx9_25_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Jun2005_x86]
+DisplayName=%Jun2005%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1041,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2005_d3dx9_26_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Jun2005_x64]
+DisplayName=%Jun2005%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1328,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2005_d3dx9_26_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Aug2005_x86]
+DisplayName=%Aug2005%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1053,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2005_d3dx9_27_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Aug2005_x64]
+DisplayName=%Aug2005%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1320,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2005_d3dx9_27_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Oct2005_x86]
+DisplayName=%Oct2005%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=45,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Oct2005_xinput_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Oct2005_x64]
+DisplayName=%Oct2005%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=80,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Oct2005_xinput_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Dec2005_x86]
+DisplayName=%Dec2005%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1051,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Dec2005_d3dx9_28_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Dec2005_x64]
+DisplayName=%Dec2005%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1320,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Dec2005_d3dx9_28_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Feb2006_x86]
+DisplayName=%Feb2006%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1055,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Feb2006_d3dx9_29_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Feb2006_x64]
+DisplayName=%Feb2006%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1325,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Feb2006_d3dx9_29_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Feb2006_xact_x86]
+DisplayName=%Feb2006%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=123,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Feb2006_xact_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Feb2006_xact_x64]
+DisplayName=%Feb2006%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=169,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Feb2006_xact_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Apr2006_x86]
+DisplayName=%Apr2006%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1087,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Apr2006_d3dx9_30_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Apr2006_x64]
+DisplayName=%Apr2006%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1362,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Apr2006_d3dx9_30_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Apr2006_xact_x86]
+DisplayName=%Apr2006%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=126,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Apr2006_xact_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Apr2006_xact_x64]
+DisplayName=%Apr2006%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=172,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Apr2006_xact_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Apr2006_xinput_x86]
+DisplayName=%Apr2006%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=42,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Apr2006_xinput_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Apr2006_xinput_x64]
+DisplayName=%Apr2006%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=81,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Apr2006_xinput_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Jun2006_xact_x86]
+DisplayName=%Jun2006%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=130,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2006_xact_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Jun2006_xact_x64]
+DisplayName=%Jun2006%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=176,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2006_xact_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Aug2006_xact_x86]
+DisplayName=%Aug2006%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=133,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2006_xact_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Aug2006_xact_x64]
+DisplayName=%Aug2006%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=177,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2006_xact_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Aug2006_xinput_x86]
+DisplayName=%Aug2006%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=44,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2006_xinput_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Aug2006_xinput_x64]
+DisplayName=%Aug2006%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=83,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2006_xinput_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Oct2006_x86]
+DisplayName=%Oct2006%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1098,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Oct2006_d3dx9_31_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Oct2006_x64]
+DisplayName=%Oct2006%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1377,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Oct2006_d3dx9_31_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Oct2006_xact_x86]
+DisplayName=%Oct2006%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=131,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Oct2006_xact_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Oct2006_xact_x64]
+DisplayName=%Oct2006%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=174,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Oct2006_xact_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Dec2006_x86]
+DisplayName=%Dec2006%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1538,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Dec2006_d3dx9_32_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Dec2006_x64]
+DisplayName=%Dec2006%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1503,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Dec2006_d3dx9_32_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Dec2006_xact_x86]
+DisplayName=%Dec2006%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=133,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Dec2006_xact_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Dec2006_xact_x64]
+DisplayName=%Dec2006%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=177,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Dec2006_xact_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Dec2006_d3dx10_x86]
+DisplayName=%Dec2006%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=179,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Dec2006_d3dx10_00_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Dec2006_d3dx10_x64]
+DisplayName=%Dec2006%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=203,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Dec2006_d3dx10_00_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Feb2007_xact_x86]
+DisplayName=%Feb2007%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=140,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Feb2007_xact_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Feb2007_xact_x64]
+DisplayName=%Feb2007%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=188,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Feb2007_xact_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Apr2007_x86]
+DisplayName=%Apr2007%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1549,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Apr2007_d3dx9_33_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Apr2007_x64]
+DisplayName=%Apr2007%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1553,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Apr2007_d3dx9_33_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Apr2007_d3dx10_x86]
+DisplayName=%Apr2007%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=662,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Apr2007_d3dx10_33_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Apr2007_d3dx10_x64]
+DisplayName=%Apr2007%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=671,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Apr2007_d3dx10_33_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Apr2007_xact_x86]
+DisplayName=%Apr2007%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=139,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Apr2007_xact_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Apr2007_xact_x64]
+DisplayName=%Apr2007%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=184,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Apr2007_xact_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Apr2007_xinput_x86]
+DisplayName=%Apr2007%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=48,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Apr2007_xinput_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Apr2007_xinput_x64]
+DisplayName=%Apr2007%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=90,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Apr2007_xinput_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Jun2007_x86]
+DisplayName=%Jun2007%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1564,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2007_d3dx9_34_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Jun2007_x64]
+DisplayName=%Jun2007%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1569,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2007_d3dx9_34_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Jun2007_d3dx10_x86]
+DisplayName=%Jun2007%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=677,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2007_d3dx10_34_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Jun2007_d3dx10_x64]
+DisplayName=%Jun2007%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=684,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2007_d3dx10_34_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Jun2007_xact_x86]
+DisplayName=%Jun2007%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=145,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2007_xact_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Jun2007_xact_x64]
+DisplayName=%Jun2007%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=191,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2007_xact_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Aug2007_x86]
+DisplayName=%Aug2007%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1592,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2007_d3dx9_35_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Aug2007_x64]
+DisplayName=%Aug2007%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1599,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2007_d3dx9_35_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Aug2007_d3dx10_x86]
+DisplayName=%Aug2007%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=702,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2007_d3dx10_35_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Aug2007_d3dx10_x64]
+DisplayName=%Aug2007%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=709,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2007_d3dx10_35_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Aug2007_xact_x86]
+DisplayName=%Aug2007%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=145,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2007_xact_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Aug2007_xact_x64]
+DisplayName=%Aug2007%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=189,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2007_xact_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Nov2007_x86]
+DisplayName=%Nov2007%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1664,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Nov2007_d3dx9_36_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Nov2007_x64]
+DisplayName=%Nov2007%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1754,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Nov2007_d3dx9_36_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Nov2007_d3dx10_x86]
+DisplayName=%Nov2007%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=775,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Nov2007_d3dx10_36_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Nov2007_d3dx10_x64]
+DisplayName=%Nov2007%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=833,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Nov2007_d3dx10_36_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Nov2007_x3daudio_x86]
+DisplayName=%Nov2007%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=15,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Nov2007_x3daudio_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Nov2007_x3daudio_x64]
+DisplayName=%Nov2007%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=42,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Nov2007_x3daudio_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Nov2007_xact_x86]
+DisplayName=%Nov2007%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=139,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Nov2007_xact_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Nov2007_xact_x64]
+DisplayName=%Nov2007%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=189,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Nov2007_xact_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Mar2008_x86]
+DisplayName=%Mar2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1667,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Mar2008_d3dx9_37_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Mar2008_x64]
+DisplayName=%Mar2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1757,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Mar2008_d3dx9_37_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Mar2008_d3dx10_x86]
+DisplayName=%Mar2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=787,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Mar2008_d3dx10_37_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Mar2008_d3dx10_x64]
+DisplayName=%Mar2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=844,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Mar2008_d3dx10_37_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Mar2008_x3daudio_x86]
+DisplayName=%Mar2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=15,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Mar2008_x3daudio_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Mar2008_x3daudio_x64]
+DisplayName=%Mar2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=42,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Mar2008_x3daudio_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Mar2008_xact_x86]
+DisplayName=%Mar2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=139,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Mar2008_xact_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Mar2008_xact_x64]
+DisplayName=%Mar2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=189,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Mar2008_xact_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Mar2008_xaudio_x86]
+DisplayName=%Mar2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=139,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Mar2008_xaudio_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Mar2008_xaudio_x64]
+DisplayName=%Mar2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=189,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Mar2008_xaudio_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Jun2008_x86]
+DisplayName=%Jun2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1667,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2008_d3dx9_38_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Jun2008_x64]
+DisplayName=%Jun2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1757,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2008_d3dx9_38_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Jun2008_d3dx10_x86]
+DisplayName=%Jun2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=787,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2008_d3dx10_38_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Jun2008_d3dx10_x64]
+DisplayName=%Jun2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=844,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2008_d3dx10_38_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Jun2008_x3daudio_x86]
+DisplayName=%Jun2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=15,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2008_x3daudio_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Jun2008_x3daudio_x64]
+DisplayName=%Jun2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=42,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2008_x3daudio_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Jun2008_xact_x86]
+DisplayName=%Jun2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=139,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2008_xact_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Jun2008_xact_x64]
+DisplayName=%Jun2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=189,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2008_xact_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Jun2008_xaudio_x86]
+DisplayName=%Jun2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=139,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2008_xaudio_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Jun2008_xaudio_x64]
+DisplayName=%Jun2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=189,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2008_xaudio_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Aug2008_x86]
+DisplayName=%Aug2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1667,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2008_d3dx9_39_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Aug2008_x64]
+DisplayName=%Aug2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1757,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2008_d3dx9_39_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Aug2008_d3dx10_x86]
+DisplayName=%Aug2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=787,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2008_d3dx10_39_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Aug2008_d3dx10_x64]
+DisplayName=%Aug2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=844,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2008_d3dx10_39_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Aug2008_xact_x86]
+DisplayName=%Aug2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=139,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2008_xact_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Aug2008_xact_x64]
+DisplayName=%Aug2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=189,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2008_xact_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Aug2008_xaudio_x86]
+DisplayName=%Aug2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=139,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2008_xaudio_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Aug2008_xaudio_x64]
+DisplayName=%Aug2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=189,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2008_xaudio_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Nov2008_x86]
+DisplayName=%Nov2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1667,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Nov2008_d3dx9_40_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Nov2008_x64]
+DisplayName=%Nov2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1757,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Nov2008_d3dx9_40_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Nov2008_d3dx10_x86]
+DisplayName=%Nov2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=787,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Nov2008_d3dx10_40_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Nov2008_d3dx10_x64]
+DisplayName=%Nov2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=844,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Nov2008_d3dx10_40_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Nov2008_x3daudio_x86]
+DisplayName=%Nov2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=15,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Nov2008_x3daudio_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Nov2008_x3daudio_x64]
+DisplayName=%Nov2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=42,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Nov2008_x3daudio_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Nov2008_xact_x86]
+DisplayName=%Nov2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=139,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Nov2008_xact_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Nov2008_xact_x64]
+DisplayName=%Nov2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=189,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Nov2008_xact_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Nov2008_xaudio_x86]
+DisplayName=%Nov2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=139,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Nov2008_xaudio_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Nov2008_xaudio_x64]
+DisplayName=%Nov2008%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=189,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Nov2008_xaudio_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Mar2009_x3daudio_x86]
+DisplayName=%Mar2009%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=15,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Mar2009_x3daudio_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Mar2009_x3daudio_x64]
+DisplayName=%Mar2009%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=42,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Mar2009_x3daudio_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Mar2009_xact_x86]
+DisplayName=%Mar2009%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=139,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Mar2009_xact_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Mar2009_xact_x64]
+DisplayName=%Mar2009%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=189,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Mar2009_xact_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Mar2009_xaudio_x86]
+DisplayName=%Mar2009%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=139,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Mar2009_xaudio_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Mar2009_xaudio_x64]
+DisplayName=%Mar2009%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=189,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Mar2009_xaudio_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Aug2009_xaudio_x86]
+DisplayName=%Aug2009%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=139,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2009_xaudio_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Aug2009_xaudio_x64]
+DisplayName=%Aug2009%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=189,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2009_xaudio_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Feb2010_x3daudio_x86]
+DisplayName=%Feb2010%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=15,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Feb2010_x3daudio_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Feb2010_x3daudio_x64]
+DisplayName=%Feb2010%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=42,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Feb2010_x3daudio_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Feb2010_xact_x86]
+DisplayName=%Feb2010%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=139,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Feb2010_xact_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Feb2010_xact_x64]
+DisplayName=%Feb2010%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=189,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Feb2010_xact_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Feb2010_xaudio_x86]
+DisplayName=%Feb2010%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=139,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Feb2010_xaudio_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Feb2010_xaudio_x64]
+DisplayName=%Feb2010%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=189,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Feb2010_xaudio_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Jun2010_xact_x86]
+DisplayName=%Jun2010%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=139,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2010_xact_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Jun2010_xact_x64]
+DisplayName=%Jun2010%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=189,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2010_xact_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Jun2010_xaudio_x86]
+DisplayName=%Jun2010%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=139,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2010_xaudio_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Jun2010_xaudio_x64]
+DisplayName=%Jun2010%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=189,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2010_xaudio_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Mar2009_x86]
+DisplayName=%Mar2009%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1667,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Mar2009_d3dx9_41_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Mar2009_x64]
+DisplayName=%Mar2009%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1757,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Mar2009_d3dx9_41_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Mar2009_d3dx10_x86]
+DisplayName=%Mar2009%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=787,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Mar2009_d3dx10_41_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Mar2009_d3dx10_x64]
+DisplayName=%Mar2009%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=844,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Mar2009_d3dx10_41_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Aug2009_x86]
+DisplayName=%Aug2009%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1667,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2009_d3dx9_42_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Aug2009_x64]
+DisplayName=%Aug2009%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1757,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2009_d3dx9_42_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Aug2009_d3dx10_x86]
+DisplayName=%Aug2009%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=787,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2009_d3dx10_42_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Aug2009_d3dx10_x64]
+DisplayName=%Aug2009%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=844,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2009_d3dx10_42_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Aug2009_d3dx11_x86]
+DisplayName=%Aug2009%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=787,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2009_d3dx11_42_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Aug2009_d3dcsx_x64]
+DisplayName=%Aug2009%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=844,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2009_d3dcsx_42_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Aug2009_d3dcsx_x86]
+DisplayName=%Aug2009%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=787,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2009_d3dcsx_42_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Aug2009_d3dx11_x64]
+DisplayName=%Aug2009%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=844,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2009_d3dx11_42_x64.cab",3
+Version=4,09,00,0904
+
+
+
+[DXUpdate_Aug2009_D3DCompiler_x86]
+DisplayName=%Aug2009%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=787,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2009_D3DCompiler_42_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Aug2009_D3DCompiler_x64]
+DisplayName=%Aug2009%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=844,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2009_D3DCompiler_42_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Jun2010_x86]
+DisplayName=%Jun2010%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1667,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2010_d3dx9_43_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Jun2010_x64]
+DisplayName=%Jun2010%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1757,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2010_d3dx9_43_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Jun2010_d3dx10_x86]
+DisplayName=%Jun2010%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=787,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2010_d3dx10_43_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Jun2010_d3dx10_x64]
+DisplayName=%Jun2010%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=844,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2010_d3dx10_43_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Jun2010_d3dx11_x86]
+DisplayName=%Jun2010%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=787,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2010_d3dx11_43_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Jun2010_d3dcsx_x64]
+DisplayName=%Jun2010%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=844,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2010_d3dcsx_43_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Jun2010_d3dcsx_x86]
+DisplayName=%Jun2010%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=787,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2010_d3dcsx_43_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Jun2010_d3dx11_x64]
+DisplayName=%Jun2010%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=844,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2010_d3dx11_43_x64.cab",3
+Version=4,09,00,0904
+
+
+
+[DXUpdate_Jun2010_D3DCompiler_x86]
+DisplayName=%Jun2010%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=787,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2010_D3DCompiler_43_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Jun2010_D3DCompiler_x64]
+DisplayName=%Jun2010%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=844,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Jun2010_D3DCompiler_43_x64.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Aug2009_xact_x86]
+DisplayName=%Aug2009%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=139,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2009_xact_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_Aug2009_xact_x64]
+DisplayName=%Aug2009%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=189,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Aug2009_xact_x64.cab",3
+Version=4,09,00,0904
+
+;
+; dxdllreg.exe for NT platforms
+;
+
+[DXUpdate_DXDllReg_x86]
+DisplayName=%DXDLLREG%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=39,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="dxdllreg_x86.cab",3
+Version=4,09,00,0904
+
+;
+; latest MDX
+;
+
+[DXUpdate_Apr2006_MDX1_x86]
+DisplayName=%Apr2006%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=896,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="Apr2006_MDX1_x86.cab",3
+Version=4,09,00,0904
+Dependencies=DXUpdate_Apr2006_x86
+
+;
+; repacked MDX
+;
+
+[DXUpdate_MDX_1.0.2902.0_x86]
+DisplayName=%MDX_1.0.2902.0%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1169,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="MDX_1.0.2902.0_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_MDX_1.0.2903.0_x86]
+DisplayName=%MDX_1.0.2903.0%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=1234,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="MDX_1.0.2903.0_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_MDX_1.0.2904.0_x86]
+DisplayName=%MDX_1.0.2904.0%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=234,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="MDX_1.0.2904.0_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_MDX_1.0.2905.0_x86]
+DisplayName=%MDX_1.0.2905.0%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=235,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="MDX_1.0.2905.0_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_MDX_1.0.2906.0_x86]
+DisplayName=%MDX_1.0.2906.0%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=239,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="MDX_1.0.2906.0_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_MDX_1.0.2907.0_x86]
+DisplayName=%MDX_1.0.2907.0%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=240,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="MDX_1.0.2907.0_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_MDX_1.0.2908.0_x86]
+DisplayName=%MDX_1.0.2908.0%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=240,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="MDX_1.0.2908.0_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_MDX_1.0.2909.0_x86]
+DisplayName=%MDX_1.0.2909.0%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=240,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="MDX_1.0.2909.0_x86.cab",3
+Version=4,09,00,0904
+
+[DXUpdate_MDX_1.0.2910.0_x86]
+DisplayName=%MDX_1.0.2910.0%
+Details=%DirectX_Desc%
+SectionType=Component
+Platform=NT5
+Group=DirectX
+Size=246,0
+GUID={44BBA855-CC51-11CF-AAFA-00AA00B6015C}
+URL1="MDX_1.0.2910.0_x86.cab",3
+Version=4,09,00,0904
+
+;
+; Conditions
+;
+;     Format:
+;
+;        SectionName, target file, [target file version]
+;
+;            download if target have not been installed or
+;            installed file is older than target version
+;
+;        GAC: Assembly Cache folder
+;        Dependencies: sections should be downloaded with
+;
+
+[DXUpdate_w9x]
+DXUpdate_Feb2005_x86,          %11%\d3dx9_24.dll
+DXUpdate_Apr2005_x86,          %11%\d3dx9_25.dll
+DXUpdate_Jun2005_x86,          %11%\d3dx9_26.dll
+DXUpdate_Aug2005_x86,          %11%\d3dx9_27.dll
+DXUpdate_Dec2005_x86,          %11%\d3dx9_28.dll
+DXUpdate_Feb2006_x86,          %11%\d3dx9_29.dll
+DXUpdate_Apr2006_x86,          %11%\d3dx9_30.dll
+DXUpdate_Oct2006_x86,          %11%\d3dx9_31.dll
+
+[DXUpdate_x86]
+DXUpdate_Feb2005_x86,          %11%\d3dx9_24.dll
+DXUpdate_Apr2005_x86,          %11%\d3dx9_25.dll
+DXUpdate_Jun2005_x86,          %11%\d3dx9_26.dll
+DXUpdate_Aug2005_x86,          %11%\d3dx9_27.dll
+DXUpdate_Dec2005_x86,          %11%\d3dx9_28.dll
+DXUpdate_Feb2006_x86,          %11%\d3dx9_29.dll
+DXUpdate_Apr2006_x86,          %11%\d3dx9_30.dll
+DXUpdate_Oct2006_x86,          %11%\d3dx9_31.dll
+DXUpdate_Dec2006_x86,          %11%\d3dx9_32.dll
+DXUpdate_Apr2007_x86,          %11%\d3dx9_33.dll
+DXUpdate_Apr2007_d3dx10_x86,   %11%\d3dx10_33.dll
+DXUpdate_Apr2007_d3dx10_x86,   %11%\d3dcompiler_33.dll
+DXUpdate_Jun2007_x86,          %11%\d3dx9_34.dll
+DXUpdate_Jun2007_d3dx10_x86,   %11%\d3dx10_34.dll
+DXUpdate_Jun2007_d3dx10_x86,   %11%\d3dcompiler_34.dll
+DXUpdate_Aug2007_x86,          %11%\d3dx9_35.dll
+DXUpdate_Aug2007_d3dx10_x86,   %11%\d3dx10_35.dll
+DXUpdate_Aug2007_d3dx10_x86,   %11%\d3dcompiler_35.dll
+DXUpdate_Nov2007_x86,          %11%\d3dx9_36.dll
+DXUpdate_Nov2007_d3dx10_x86,   %11%\d3dx10_36.dll
+DXUpdate_Nov2007_d3dx10_x86,   %11%\d3dcompiler_36.dll
+DXUpdate_Mar2008_x86,          %11%\d3dx9_37.dll
+DXUpdate_Mar2008_d3dx10_x86,   %11%\d3dx10_37.dll
+DXUpdate_Mar2008_d3dx10_x86,   %11%\d3dcompiler_37.dll
+DXUpdate_Jun2008_x86,          %11%\d3dx9_38.dll
+DXUpdate_Jun2008_d3dx10_x86,   %11%\d3dx10_38.dll
+DXUpdate_Jun2008_d3dx10_x86,   %11%\d3dcompiler_38.dll
+DXUpdate_Aug2008_x86,          %11%\d3dx9_39.dll
+DXUpdate_Aug2008_d3dx10_x86,   %11%\d3dx10_39.dll
+DXUpdate_Aug2008_d3dx10_x86,   %11%\d3dcompiler_39.dll
+DXUpdate_Nov2008_x86,          %11%\d3dx9_40.dll
+DXUpdate_Nov2008_d3dx10_x86,   %11%\d3dx10_40.dll
+DXUpdate_Nov2008_d3dx10_x86,   %11%\d3dcompiler_40.dll
+DXUpdate_Mar2009_x86,          %11%\d3dx9_41.dll
+DXUpdate_Mar2009_d3dx10_x86,   %11%\d3dx10_41.dll
+DXUpdate_Mar2009_d3dx10_x86,   %11%\d3dcompiler_41.dll
+DXUpdate_Aug2009_x86,          %11%\d3dx9_42.dll
+DXUpdate_Aug2009_d3dx10_x86,   %11%\d3dx10_42.dll
+DXUpdate_Aug2009_d3dx11_x86,   %11%\d3dx11_42.dll
+DXUpdate_Aug2009_d3dcsx_x86,   %11%\d3dcsx_42.dll
+DXUpdate_Aug2009_d3dcompiler_x86,   %11%\d3dcompiler_42.dll
+DXUpdate_Jun2010_x86,          %11%\d3dx9_43.dll
+DXUpdate_Jun2010_d3dx10_x86,   %11%\d3dx10_43.dll
+DXUpdate_Jun2010_d3dx11_x86,   %11%\d3dx11_43.dll
+DXUpdate_Jun2010_d3dcsx_x86,   %11%\d3dcsx_43.dll
+DXUpdate_Jun2010_d3dcompiler_x86,   %11%\d3dcompiler_43.dll
+
+[DXUpdate_x64]
+DXUpdate_Feb2005_x64,          %11%\d3dx9_24.dll
+DXUpdate_Apr2005_x64,          %11%\d3dx9_25.dll
+DXUpdate_Jun2005_x64,          %11%\d3dx9_26.dll
+DXUpdate_Aug2005_x64,          %11%\d3dx9_27.dll
+DXUpdate_Dec2005_x64,          %11%\d3dx9_28.dll
+DXUpdate_Feb2006_x64,          %11%\d3dx9_29.dll
+DXUpdate_Feb2006_xact_x86,     %11%\xactengine2_0.dll
+DXUpdate_Feb2006_xact_x64,     %11%\xactengine2_0.dll
+DXUpdate_Apr2006_x64,          %11%\d3dx9_30.dll
+DXUpdate_Apr2006_xact_x86,     %11%\xactengine2_1.dll
+DXUpdate_Apr2006_xact_x64,     %11%\xactengine2_1.dll
+DXUpdate_Jun2006_xact_x86,     %11%\xactengine2_2.dll
+DXUpdate_Jun2006_xact_x64,     %11%\xactengine2_2.dll
+DXUpdate_Aug2006_xact_x86,     %11%\xactengine2_3.dll
+DXUpdate_Aug2006_xact_x64,     %11%\xactengine2_3.dll
+DXUpdate_Aug2006_xact_x86,     %11%\x3daudio1_0.dll
+DXUpdate_Aug2006_xact_x64,     %11%\x3daudio1_0.dll
+DXUpdate_Oct2006_x64,          %11%\d3dx9_31.dll
+DXUpdate_Oct2006_xact_x86,     %11%\xactengine2_4.dll
+DXUpdate_Oct2006_xact_x64,     %11%\xactengine2_4.dll
+DXUpdate_Dec2006_x64,          %11%\d3dx9_32.dll
+DXUpdate_Dec2006_xact_x86,     %11%\xactengine2_5.dll
+DXUpdate_Dec2006_xact_x64,     %11%\xactengine2_5.dll
+DXUpdate_Feb2007_xact_x86,     %11%\xactengine2_6.dll
+DXUpdate_Feb2007_xact_x64,     %11%\xactengine2_6.dll
+DXUpdate_Apr2007_x64,          %11%\d3dx9_33.dll
+DXUpdate_Apr2007_d3dx10_x64,   %11%\d3dx10_33.dll
+DXUpdate_Apr2007_d3dx10_x64,   %11%\d3dcompiler_33.dll
+DXUpdate_Apr2007_xact_x86,     %11%\xactengine2_7.dll
+DXUpdate_Apr2007_xact_x64,     %11%\xactengine2_7.dll
+DXUpdate_Apr2007_xact_x86,     %11%\x3daudio1_1.dll
+DXUpdate_Apr2007_xact_x64,     %11%\x3daudio1_1.dll
+DXUpdate_Jun2007_x64,          %11%\d3dx9_34.dll
+DXUpdate_Jun2007_d3dx10_x64,   %11%\d3dx10_34.dll
+DXUpdate_Jun2007_d3dx10_x64,   %11%\d3dcompiler_34.dll
+DXUpdate_Jun2007_xact_x86,     %11%\xactengine2_8.dll
+DXUpdate_Jun2007_xact_x64,     %11%\xactengine2_8.dll
+DXUpdate_Aug2007_x64,          %11%\d3dx9_35.dll
+DXUpdate_Aug2007_d3dx10_x64,   %11%\d3dx10_35.dll
+DXUpdate_Aug2007_d3dx10_x64,   %11%\d3dcompiler_35.dll
+DXUpdate_Aug2007_xact_x86,     %11%\xactengine2_9.dll
+DXUpdate_Aug2007_xact_x64,     %11%\xactengine2_9.dll
+DXUpdate_Nov2007_x64,          %11%\d3dx9_36.dll
+DXUpdate_Nov2007_d3dx10_x64,   %11%\d3dx10_36.dll
+DXUpdate_Nov2007_d3dx10_x64,   %11%\d3dcompiler_36.dll
+DXUpdate_Nov2007_x3daudio_x86, %11%\x3daudio1_2.dll, 9.21.1148.0
+DXUpdate_Nov2007_x3daudio_x64, %11%\x3daudio1_2.dll, 9.21.1148.0
+DXUpdate_Nov2007_xact_x86,     %11%\xactengine2_10.dll
+DXUpdate_Nov2007_xact_x64,     %11%\xactengine2_10.dll
+DXUpdate_Mar2008_x64,          %11%\d3dx9_37.dll
+DXUpdate_Mar2008_d3dx10_x64,   %11%\d3dx10_37.dll
+DXUpdate_Mar2008_d3dx10_x64,   %11%\d3dcompiler_37.dll
+DXUpdate_Mar2008_x3daudio_x86, %11%\x3daudio1_3.dll
+DXUpdate_Mar2008_x3daudio_x64, %11%\x3daudio1_3.dll
+DXUpdate_Mar2008_xact_x86,     %11%\xactengine3_0.dll
+DXUpdate_Mar2008_xact_x64,     %11%\xactengine3_0.dll
+DXUpdate_Mar2008_xaudio_x86,   %11%\xaudio2_0.dll
+DXUpdate_Mar2008_xaudio_x64,   %11%\xaudio2_0.dll
+DXUpdate_Jun2008_x64,          %11%\d3dx9_38.dll
+DXUpdate_Jun2008_d3dx10_x64,   %11%\d3dx10_38.dll
+DXUpdate_Jun2008_d3dx10_x64,   %11%\d3dcompiler_38.dll
+DXUpdate_Jun2008_x3daudio_x86, %11%\x3daudio1_4.dll
+DXUpdate_Jun2008_x3daudio_x64, %11%\x3daudio1_4.dll
+DXUpdate_Jun2008_xact_x86,     %11%\xactengine3_1.dll
+DXUpdate_Jun2008_xact_x64,     %11%\xactengine3_1.dll
+DXUpdate_Jun2008_xaudio_x86,   %11%\XAPOFX1_0.dll
+DXUpdate_Jun2008_xaudio_x64,   %11%\XAPOFX1_0.dll
+DXUpdate_Jun2008_xaudio_x86,   %11%\xaudio2_1.dll
+DXUpdate_Jun2008_xaudio_x64,   %11%\xaudio2_1.dll
+DXUpdate_Aug2008_x64,          %11%\d3dx9_39.dll
+DXUpdate_Aug2008_d3dx10_x64,   %11%\d3dx10_39.dll
+DXUpdate_Aug2008_d3dx10_x64,   %11%\d3dcompiler_39.dll
+DXUpdate_Aug2008_xact_x86,     %11%\xactengine3_2.dll, 9.24.1400.0
+DXUpdate_Aug2008_xact_x64,     %11%\xactengine3_2.dll, 9.24.1400.0
+DXUpdate_Aug2008_xaudio_x86,   %11%\XAPOFX1_1.dll, 9.24.1400.0
+DXUpdate_Aug2008_xaudio_x64,   %11%\XAPOFX1_1.dll, 9.24.1400.0
+DXUpdate_Aug2008_xaudio_x86,   %11%\xaudio2_2.dll, 9.24.1400.0
+DXUpdate_Aug2008_xaudio_x64,   %11%\xaudio2_2.dll, 9.24.1400.0
+DXUpdate_Nov2008_x3daudio_x86, %11%\x3daudio1_5.dll, 9.25.1476.0
+DXUpdate_Nov2008_x3daudio_x64, %11%\x3daudio1_5.dll, 9.25.1476.0
+DXUpdate_Nov2008_xact_x86,     %11%\xactengine3_3.dll, 9.25.1476.0
+DXUpdate_Nov2008_xact_x64,     %11%\xactengine3_3.dll, 9.25.1476.0
+DXUpdate_Nov2008_xaudio_x86,   %11%\XAPOFX1_2.dll, 9.25.1476.0
+DXUpdate_Nov2008_xaudio_x64,   %11%\XAPOFX1_2.dll, 9.25.1476.0
+DXUpdate_Nov2008_xaudio_x86,   %11%\xaudio2_3.dll, 9.25.1476.0
+DXUpdate_Nov2008_xaudio_x64,   %11%\xaudio2_3.dll, 9.25.1476.0
+DXUpdate_Nov2008_x64,          %11%\d3dx9_40.dll
+DXUpdate_Nov2008_d3dx10_x64,   %11%\d3dx10_40.dll
+DXUpdate_Nov2008_d3dx10_x64,   %11%\d3dcompiler_40.dll
+DXUpdate_Mar2009_x64,          %11%\d3dx9_41.dll
+DXUpdate_Mar2009_d3dx10_x64,   %11%\d3dx10_41.dll
+DXUpdate_Mar2009_d3dx10_x64,   %11%\d3dcompiler_41.dll
+DXUpdate_Mar2009_x3daudio_x86, %11%\x3daudio1_6.dll
+DXUpdate_Mar2009_x3daudio_x64, %11%\x3daudio1_6.dll
+DXUpdate_Mar2009_xact_x86,     %11%\xactengine3_4.dll
+DXUpdate_Mar2009_xact_x64,     %11%\xactengine3_4.dll
+DXUpdate_Mar2009_xaudio_x86,   %11%\XAPOFX1_3.dll
+DXUpdate_Mar2009_xaudio_x64,   %11%\XAPOFX1_3.dll
+DXUpdate_Mar2009_xaudio_x86,   %11%\xaudio2_4.dll
+DXUpdate_Mar2009_xaudio_x64,   %11%\xaudio2_4.dll
+DXUpdate_Aug2009_x64,          %11%\d3dx9_42.dll
+DXUpdate_Aug2009_d3dx10_x64,   %11%\d3dx10_42.dll
+DXUpdate_Aug2009_d3dx11_x64,   %11%\d3dx11_42.dll
+DXUpdate_Aug2009_d3dcsx_x64,   %11%\d3dcsx_42.dll
+DXUpdate_Aug2009_d3dcompiler_x64,   %11%\d3dcompiler_42.dll
+DXUpdate_Aug2009_xact_x86,     %11%\xactengine3_5.dll
+DXUpdate_Aug2009_xact_x64,     %11%\xactengine3_5.dll
+DXUpdate_Aug2009_xaudio_x86,   %11%\XAPOFX1_3.dll
+DXUpdate_Aug2009_xaudio_x64,   %11%\XAPOFX1_3.dll
+DXUpdate_Aug2009_xaudio_x86,   %11%\xaudio2_5.dll
+DXUpdate_Aug2009_xaudio_x64,   %11%\xaudio2_5.dll
+DXUpdate_Feb2010_x3daudio_x86, %11%\x3daudio1_7.dll
+DXUpdate_Feb2010_x3daudio_x64, %11%\x3daudio1_7.dll
+DXUpdate_Feb2010_xact_x86,     %11%\xactengine3_6.dll
+DXUpdate_Feb2010_xact_x64,     %11%\xactengine3_6.dll
+DXUpdate_Feb2010_xaudio_x86,   %11%\XAPOFX1_4.dll
+DXUpdate_Feb2010_xaudio_x64,   %11%\XAPOFX1_4.dll
+DXUpdate_Feb2010_xaudio_x86,   %11%\xaudio2_6.dll
+DXUpdate_Feb2010_xaudio_x64,   %11%\xaudio2_6.dll
+DXUpdate_Jun2010_x64,          %11%\d3dx9_43.dll
+DXUpdate_Jun2010_d3dx10_x64,   %11%\d3dx10_43.dll
+DXUpdate_Jun2010_d3dx11_x64,   %11%\d3dx11_43.dll
+DXUpdate_Jun2010_d3dcsx_x64,   %11%\d3dcsx_43.dll
+DXUpdate_Jun2010_d3dcompiler_x64,   %11%\d3dcompiler_43.dll
+DXUpdate_Jun2010_xact_x86,     %11%\xactengine3_7.dll
+DXUpdate_Jun2010_xact_x64,     %11%\xactengine3_7.dll
+DXUpdate_Jun2010_xaudio_x86,   %11%\XAPOFX1_5.dll
+DXUpdate_Jun2010_xaudio_x64,   %11%\XAPOFX1_5.dll
+DXUpdate_Jun2010_xaudio_x86,   %11%\xaudio2_7.dll
+DXUpdate_Jun2010_xaudio_x64,   %11%\xaudio2_7.dll
+
+[DXUpdate_MDX_x86]
+;
+; Microsoft.DirectX.Direct3DX.dll
+;
+DXUpdate_MDX_1.0.2902.0_x86, GAC\Microsoft.DirectX.Direct3DX\1.0.2902.0__31bf3856ad364e35\Microsoft.DirectX.Direct3DX.dll, 5.4.0.3900
+DXUpdate_MDX_1.0.2902.0_x86, %10%\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.DirectX.Direct3DX.dll,       5.4.0.3900
+
+DXUpdate_MDX_1.0.2903.0_x86, GAC\Microsoft.DirectX.Direct3DX\1.0.2903.0__31bf3856ad364e35\Microsoft.DirectX.Direct3DX.dll, 9.4.91.0
+DXUpdate_MDX_1.0.2903.0_x86, %10%\Microsoft.NET\DirectX for Managed Code\1.0.2903.0\Microsoft.DirectX.Direct3DX.dll,       9.4.91.0
+
+DXUpdate_MDX_1.0.2904.0_x86, GAC\Microsoft.DirectX.Direct3DX\1.0.2904.0__31bf3856ad364e35\Microsoft.DirectX.Direct3DX.dll, 9.5.132.0
+DXUpdate_MDX_1.0.2904.0_x86, %10%\Microsoft.NET\DirectX for Managed Code\1.0.2904.0\Microsoft.DirectX.Direct3DX.dll,       9.5.132.0
+
+DXUpdate_MDX_1.0.2905.0_x86, GAC\Microsoft.DirectX.Direct3DX\1.0.2905.0__31bf3856ad364e35\Microsoft.DirectX.Direct3DX.dll, 9.6.168.0
+DXUpdate_MDX_1.0.2905.0_x86, %10%\Microsoft.NET\DirectX for Managed Code\1.0.2905.0\Microsoft.DirectX.Direct3DX.dll,       9.6.168.0
+
+DXUpdate_MDX_1.0.2906.0_x86, GAC\Microsoft.DirectX.Direct3DX\1.0.2906.0__31bf3856ad364e35\Microsoft.DirectX.Direct3DX.dll, 9.7.239.0
+DXUpdate_MDX_1.0.2906.0_x86, %10%\Microsoft.NET\DirectX for Managed Code\1.0.2906.0\Microsoft.DirectX.Direct3DX.dll,       9.7.239.0
+
+DXUpdate_MDX_1.0.2907.0_x86, GAC\Microsoft.DirectX.Direct3DX\1.0.2907.0__31bf3856ad364e35\Microsoft.DirectX.Direct3DX.dll, 9.8.299.0
+DXUpdate_MDX_1.0.2907.0_x86, %10%\Microsoft.NET\DirectX for Managed Code\1.0.2907.0\Microsoft.DirectX.Direct3DX.dll,       9.8.299.0
+
+DXUpdate_MDX_1.0.2908.0_x86, GAC\Microsoft.DirectX.Direct3DX\1.0.2908.0__31bf3856ad364e35\Microsoft.DirectX.Direct3DX.dll, 9.9.376.0
+DXUpdate_MDX_1.0.2908.0_x86, %10%\Microsoft.NET\DirectX for Managed Code\1.0.2908.0\Microsoft.DirectX.Direct3DX.dll,       9.9.376.0
+
+DXUpdate_MDX_1.0.2909.0_x86, GAC\Microsoft.DirectX.Direct3DX\1.0.2909.0__31bf3856ad364e35\Microsoft.DirectX.Direct3DX.dll, 9.10.455.0
+DXUpdate_MDX_1.0.2909.0_x86, %10%\Microsoft.NET\DirectX for Managed Code\1.0.2909.0\Microsoft.DirectX.Direct3DX.dll,       9.10.455.0
+
+DXUpdate_MDX_1.0.2910.0_x86, GAC\Microsoft.DirectX.Direct3DX\1.0.2910.0__31bf3856ad364e35\Microsoft.DirectX.Direct3DX.dll, 9.11.519.0
+DXUpdate_MDX_1.0.2910.0_x86, %10%\Microsoft.NET\DirectX for Managed Code\1.0.2910.0\Microsoft.DirectX.Direct3DX.dll,       9.11.519.0
+;
+; MDX 1.0.2902.0
+;
+DXUpdate_Apr2006_MDX1_x86,   GAC\Microsoft.DirectX.AudioVideoPlayback\1.0.2902.0__31bf3856ad364e35\Microsoft.DirectX.AudioVideoPlayback.dll, 5.4.0.2904
+DXUpdate_Apr2006_MDX1_x86,   %10%\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.DirectX.AudioVideoPlayback.dll,                5.4.0.2904
+
+DXUpdate_Apr2006_MDX1_x86,   GAC\Microsoft.DirectX.Diagnostics\1.0.2902.0__31bf3856ad364e35\Microsoft.DirectX.Diagnostics.dll,               5.4.0.2904
+DXUpdate_Apr2006_MDX1_x86,   %10%\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.DirectX.Diagnostics.dll,                       5.4.0.2904
+
+DXUpdate_Apr2006_MDX1_x86,   GAC\Microsoft.DirectX.Direct3D\1.0.2902.0__31bf3856ad364e35\Microsoft.DirectX.Direct3D.dll,                     9.5.132.0
+DXUpdate_Apr2006_MDX1_x86,   %10%\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.DirectX.Direct3D.dll,                          9.5.132.0
+
+DXUpdate_Apr2006_MDX1_x86,   GAC\Microsoft.DirectX.DirectDraw\1.0.2902.0__31bf3856ad364e35\Microsoft.DirectX.DirectDraw.dll,                 5.4.0.2904
+DXUpdate_Apr2006_MDX1_x86,   %10%\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.DirectX.DirectDraw.dll,                        5.4.0.2904
+
+DXUpdate_Apr2006_MDX1_x86,   GAC\Microsoft.DirectX.DirectInput\1.0.2902.0__31bf3856ad364e35\Microsoft.DirectX.DirectInput.dll,               5.4.0.2904
+DXUpdate_Apr2006_MDX1_x86,   %10%\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.DirectX.DirectInput.dll,                       5.4.0.2904
+
+DXUpdate_Apr2006_MDX1_x86,   GAC\Microsoft.DirectX.DirectPlay\1.0.2902.0__31bf3856ad364e35\Microsoft.DirectX.DirectPlay.dll,                 5.4.0.2904
+DXUpdate_Apr2006_MDX1_x86,   %10%\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.DirectX.DirectPlay.dll,                        5.4.0.2904
+
+DXUpdate_Apr2006_MDX1_x86,   GAC\Microsoft.DirectX.DirectSound\1.0.2902.0__31bf3856ad364e35\Microsoft.DirectX.DirectSound.dll,               5.4.0.2904
+DXUpdate_Apr2006_MDX1_x86,   %10%\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.DirectX.DirectSound.dll,                       5.4.0.2904
+
+DXUpdate_Apr2006_MDX1_x86,   GAC\Microsoft.DirectX\1.0.2902.0__31bf3856ad364e35\Microsoft.DirectX.dll,                                       5.4.0.2904
+DXUpdate_Apr2006_MDX1_x86,   %10%\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.DirectX.dll,                                   5.4.0.2904
+;
+; latest MDX
+;
+DXUpdate_Apr2006_MDX1_x86,   GAC\Microsoft.DirectX.Direct3DX\1.0.2911.0__31bf3856ad364e35\Microsoft.DirectX.Direct3DX.dll
+DXUpdate_Apr2006_MDX1_x86,   %10%\Microsoft.NET\DirectX for Managed Code\1.0.2911.0\Microsoft.DirectX.Direct3DX.dll
+
+[4.09.00.0904.00-4.09.00.0904.00_Win98]
+Dependencies: DXUpdate_w9x, DXUpdate_MDX_x86
+
+[4.09.00.0904.00-4.09.00.0904.00_WinME]
+Dependencies: DXUpdate_w9x, DXUpdate_MDX_x86
+
+[4.09.00.0904.00-4.09.00.0904.00_Win9X]
+Dependencies: DXUpdate_w9x, DXUpdate_MDX_x86
+
+[4.09.00.0904.00-4.09.00.0904.00_Win2K]
+Dependencies: DXUpdate_x86, DXUpdate_MDX_x86
+
+[4.09.00.0904.00-4.09.00.0904.00_WinXP]
+DXUpdate_Oct2005_x86,          %11%\xinput9_1_0.dll
+DXUpdate_Feb2006_xact_x86,     %11%\xactengine2_0.dll
+DXUpdate_Apr2006_xact_x86,     %11%\xactengine2_1.dll
+DXUpdate_Apr2006_xinput_x86,   %11%\xinput1_1.dll
+DXUpdate_Jun2006_xact_x86,     %11%\xactengine2_2.dll
+DXUpdate_Aug2006_xact_x86,     %11%\xactengine2_3.dll
+DXUpdate_Aug2006_xact_x86,     %11%\x3daudio1_0.dll
+DXUpdate_Aug2006_xinput_x86,   %11%\xinput1_2.dll
+DXUpdate_Oct2006_xact_x86,     %11%\xactengine2_4.dll
+DXUpdate_Dec2006_xact_x86,     %11%\xactengine2_5.dll
+DXUpdate_Feb2007_xact_x86,     %11%\xactengine2_6.dll
+DXUpdate_Apr2007_xact_x86,     %11%\xactengine2_7.dll
+DXUpdate_Apr2007_xact_x86,     %11%\x3daudio1_1.dll
+DXUpdate_Apr2007_xinput_x86,   %11%\xinput1_3.dll, 9.18.944.0
+DXUpdate_Jun2007_xact_x86,     %11%\xactengine2_8.dll
+DXUpdate_Aug2007_xact_x86,     %11%\xactengine2_9.dll
+DXUpdate_Nov2007_x3daudio_x86, %11%\x3daudio1_2.dll, 9.21.1148.0
+DXUpdate_Nov2007_xact_x86,     %11%\xactengine2_10.dll
+DXUpdate_Mar2008_x3daudio_x86, %11%\x3daudio1_3.dll
+DXUpdate_Mar2008_xact_x86,     %11%\xactengine3_0.dll
+DXUpdate_Mar2008_xaudio_x86,   %11%\xaudio2_0.dll
+DXUpdate_Jun2008_x3daudio_x86, %11%\x3daudio1_4.dll
+DXUpdate_Jun2008_xact_x86,     %11%\xactengine3_1.dll
+DXUpdate_Jun2008_xaudio_x86,   %11%\XAPOFX1_0.dll
+DXUpdate_Jun2008_xaudio_x86,   %11%\xaudio2_1.dll
+DXUpdate_Aug2008_xact_x86,     %11%\xactengine3_2.dll, 9.24.1400.0
+DXUpdate_Aug2008_xaudio_x86,   %11%\XAPOFX1_1.dll, 9.24.1400.0
+DXUpdate_Aug2008_xaudio_x86,   %11%\xaudio2_2.dll, 9.24.1400.0
+DXUpdate_Nov2008_x3daudio_x86, %11%\x3daudio1_5.dll, 9.25.1476.0
+DXUpdate_Nov2008_xact_x86,     %11%\xactengine3_3.dll, 9.25.1476.0
+DXUpdate_Nov2008_xaudio_x86,   %11%\XAPOFX1_2.dll, 9.25.1476.0
+DXUpdate_Nov2008_xaudio_x86,   %11%\xaudio2_3.dll, 9.25.1476.0
+DXUpdate_Mar2009_x3daudio_x86, %11%\x3daudio1_6.dll
+DXUpdate_Mar2009_xact_x86,     %11%\xactengine3_4.dll
+DXUpdate_Mar2009_xaudio_x86,   %11%\XAPOFX1_3.dll
+DXUpdate_Mar2009_xaudio_x86,   %11%\xaudio2_4.dll
+DXUpdate_Aug2009_xact_x86,     %11%\xactengine3_5.dll
+DXUpdate_Aug2009_xaudio_x86,   %11%\XAPOFX1_3.dll
+DXUpdate_Aug2009_xaudio_x86,   %11%\xaudio2_5.dll
+DXUpdate_Feb2010_x3daudio_x86, %11%\x3daudio1_7.dll
+DXUpdate_Feb2010_xact_x86,     %11%\xactengine3_6.dll
+DXUpdate_Feb2010_xaudio_x86,   %11%\XAPOFX1_4.dll
+DXUpdate_Feb2010_xaudio_x86,   %11%\xaudio2_6.dll
+DXUpdate_Jun2010_xact_x86,     %11%\xactengine3_7.dll
+DXUpdate_Jun2010_xaudio_x86,   %11%\XAPOFX1_5.dll
+DXUpdate_Jun2010_xaudio_x86,   %11%\xaudio2_7.dll
+Dependencies: DXUpdate_x86, DXUpdate_MDX_x86
+
+[4.09.00.0904.00-4.09.00.0904.00_Srv2K3]
+DXUpdate_Feb2006_xact_x86,     %11%\xactengine2_0.dll
+DXUpdate_Apr2006_xact_x86,     %11%\xactengine2_1.dll
+DXUpdate_Apr2006_xinput_x86,   %11%\xinput1_1.dll
+DXUpdate_Jun2006_xact_x86,     %11%\xactengine2_2.dll
+DXUpdate_Aug2006_xact_x86,     %11%\xactengine2_3.dll
+DXUpdate_Aug2006_xact_x86,     %11%\x3daudio1_0.dll
+DXUpdate_Aug2006_xinput_x86,   %11%\xinput1_2.dll
+DXUpdate_Oct2006_xact_x86,     %11%\xactengine2_4.dll
+DXUpdate_Dec2006_xact_x86,     %11%\xactengine2_5.dll
+DXUpdate_Feb2007_xact_x86,     %11%\xactengine2_6.dll
+DXUpdate_Apr2007_xact_x86,     %11%\xactengine2_7.dll
+DXUpdate_Apr2007_xact_x86,     %11%\x3daudio1_1.dll
+DXUpdate_Apr2007_xinput_x86,   %11%\xinput1_3.dll, 9.18.944.0
+DXUpdate_Jun2007_xact_x86,     %11%\xactengine2_8.dll
+DXUpdate_Aug2007_xact_x86,     %11%\xactengine2_9.dll
+DXUpdate_Nov2007_x3daudio_x86, %11%\x3daudio1_2.dll, 9.21.1148.0
+DXUpdate_Nov2007_xact_x86,     %11%\xactengine2_10.dll
+DXUpdate_Mar2008_x3daudio_x86, %11%\x3daudio1_3.dll
+DXUpdate_Mar2008_xact_x86,     %11%\xactengine3_0.dll
+DXUpdate_Mar2008_xaudio_x86,   %11%\xaudio2_0.dll
+DXUpdate_Jun2008_x3daudio_x86, %11%\x3daudio1_4.dll
+DXUpdate_Jun2008_xact_x86,     %11%\xactengine3_1.dll
+DXUpdate_Jun2008_xaudio_x86,   %11%\XAPOFX1_0.dll
+DXUpdate_Jun2008_xaudio_x86,   %11%\xaudio2_1.dll
+DXUpdate_Aug2008_xact_x86,     %11%\xactengine3_2.dll, 9.24.1400.0
+DXUpdate_Aug2008_xaudio_x86,   %11%\XAPOFX1_1.dll, 9.24.1400.0
+DXUpdate_Aug2008_xaudio_x86,   %11%\xaudio2_2.dll, 9.24.1400.0
+DXUpdate_Nov2008_x3daudio_x86, %11%\x3daudio1_5.dll, 9.25.1476.0
+DXUpdate_Nov2008_xact_x86,     %11%\xactengine3_3.dll, 9.25.1476.0
+DXUpdate_Nov2008_xaudio_x86,   %11%\XAPOFX1_2.dll, 9.25.1476.0
+DXUpdate_Nov2008_xaudio_x86,   %11%\xaudio2_3.dll, 9.25.1476.0
+DXUpdate_Mar2009_x3daudio_x86, %11%\x3daudio1_6.dll
+DXUpdate_Mar2009_xact_x86,     %11%\xactengine3_4.dll
+DXUpdate_Mar2009_xaudio_x86,   %11%\XAPOFX1_3.dll
+DXUpdate_Mar2009_xaudio_x86,   %11%\xaudio2_4.dll
+DXUpdate_Aug2009_xact_x86,     %11%\xactengine3_5.dll
+DXUpdate_Aug2009_xaudio_x86,   %11%\XAPOFX1_3.dll
+DXUpdate_Aug2009_xaudio_x86,   %11%\xaudio2_5.dll
+DXUpdate_Feb2010_x3daudio_x86, %11%\x3daudio1_7.dll
+DXUpdate_Feb2010_xact_x86,     %11%\xactengine3_6.dll
+DXUpdate_Feb2010_xaudio_x86,   %11%\XAPOFX1_4.dll
+DXUpdate_Feb2010_xaudio_x86,   %11%\xaudio2_6.dll
+DXUpdate_Jun2010_xact_x86,     %11%\xactengine3_7.dll
+DXUpdate_Jun2010_xaudio_x86,   %11%\XAPOFX1_5.dll
+DXUpdate_Jun2010_xaudio_x86,   %11%\xaudio2_7.dll
+Dependencies: DXUpdate_x86, DXUpdate_MDX_x86
+
+[4.09.00.0904.00-4.09.00.0904.00_WinNT]
+DXUpdate_Feb2006_xact_x86,     %11%\xactengine2_0.dll
+DXUpdate_Apr2006_xact_x86,     %11%\xactengine2_1.dll
+DXUpdate_Apr2006_xinput_x86,   %11%\xinput1_1.dll
+DXUpdate_Jun2006_xact_x86,     %11%\xactengine2_2.dll
+DXUpdate_Aug2006_xact_x86,     %11%\xactengine2_3.dll
+DXUpdate_Aug2006_xact_x86,     %11%\x3daudio1_0.dll
+DXUpdate_Aug2006_xinput_x86,   %11%\xinput1_2.dll
+DXUpdate_Oct2006_xact_x86,     %11%\xactengine2_4.dll
+DXUpdate_Dec2006_d3dx10_x86,   %11%\d3dx10.dll
+DXUpdate_Dec2006_xact_x86,     %11%\xactengine2_5.dll
+DXUpdate_Feb2007_xact_x86,     %11%\xactengine2_6.dll
+DXUpdate_Apr2007_xact_x86,     %11%\xactengine2_7.dll
+DXUpdate_Apr2007_xact_x86,     %11%\x3daudio1_1.dll
+DXUpdate_Apr2007_xinput_x86,   %11%\xinput1_3.dll, 9.18.944.0
+DXUpdate_Jun2007_xact_x86,     %11%\xactengine2_8.dll
+DXUpdate_Aug2007_xact_x86,     %11%\xactengine2_9.dll
+DXUpdate_Nov2007_x3daudio_x86, %11%\x3daudio1_2.dll, 9.21.1148.0
+DXUpdate_Nov2007_xact_x86,     %11%\xactengine2_10.dll
+DXUpdate_Mar2008_x3daudio_x86, %11%\x3daudio1_3.dll
+DXUpdate_Mar2008_xact_x86,     %11%\xactengine3_0.dll
+DXUpdate_Mar2008_xaudio_x86,   %11%\xaudio2_0.dll
+DXUpdate_Jun2008_x3daudio_x86, %11%\x3daudio1_4.dll
+DXUpdate_Jun2008_xact_x86,     %11%\xactengine3_1.dll
+DXUpdate_Jun2008_xaudio_x86,   %11%\XAPOFX1_0.dll
+DXUpdate_Jun2008_xaudio_x86,   %11%\xaudio2_1.dll
+DXUpdate_Aug2008_xact_x86,     %11%\xactengine3_2.dll, 9.24.1400.0
+DXUpdate_Aug2008_xaudio_x86,   %11%\XAPOFX1_1.dll, 9.24.1400.0
+DXUpdate_Aug2008_xaudio_x86,   %11%\xaudio2_2.dll, 9.24.1400.0
+DXUpdate_Nov2008_x3daudio_x86, %11%\x3daudio1_5.dll, 9.25.1476.0
+DXUpdate_Nov2008_xact_x86,     %11%\xactengine3_3.dll, 9.25.1476.0
+DXUpdate_Nov2008_xaudio_x86,   %11%\XAPOFX1_2.dll, 9.25.1476.0
+DXUpdate_Nov2008_xaudio_x86,   %11%\xaudio2_3.dll, 9.25.1476.0
+DXUpdate_Mar2009_x3daudio_x86, %11%\x3daudio1_6.dll
+DXUpdate_Mar2009_xact_x86,     %11%\xactengine3_4.dll
+DXUpdate_Mar2009_xaudio_x86,   %11%\XAPOFX1_3.dll
+DXUpdate_Mar2009_xaudio_x86,   %11%\xaudio2_4.dll
+DXUpdate_Aug2009_xact_x86,     %11%\xactengine3_5.dll
+DXUpdate_Aug2009_xaudio_x86,   %11%\XAPOFX1_3.dll
+DXUpdate_Aug2009_xaudio_x86,   %11%\xaudio2_5.dll
+DXUpdate_Feb2010_x3daudio_x86, %11%\x3daudio1_7.dll
+DXUpdate_Feb2010_xact_x86,     %11%\xactengine3_6.dll
+DXUpdate_Feb2010_xaudio_x86,   %11%\XAPOFX1_4.dll
+DXUpdate_Feb2010_xaudio_x86,   %11%\xaudio2_6.dll
+DXUpdate_Jun2010_xact_x86,     %11%\xactengine3_7.dll
+DXUpdate_Jun2010_xaudio_x86,   %11%\XAPOFX1_5.dll
+DXUpdate_Jun2010_xaudio_x86,   %11%\xaudio2_7.dll
+Dependencies: DXUpdate_x86, DXUpdate_MDX_x86
+
+[4.09.00.0904.00-4.09.00.0904.00_WinXP@64]
+DXUpdate_Oct2005_x86,          %11%\xinput9_1_0.dll
+DXUpdate_Oct2005_x64,          %11%\xinput9_1_0.dll
+DXUpdate_Apr2006_xinput_x86,   %11%\xinput1_1.dll
+DXUpdate_Apr2006_xinput_x64,   %11%\xinput1_1.dll
+DXUpdate_Aug2006_xinput_x86,   %11%\xinput1_2.dll
+DXUpdate_Aug2006_xinput_x64,   %11%\xinput1_2.dll
+DXUpdate_Apr2007_xinput_x86,   %11%\xinput1_3.dll, 9.18.944.0
+DXUpdate_Apr2007_xinput_x64,   %11%\xinput1_3.dll, 9.18.944.0
+Dependencies: DXUpdate_x86, DXUpdate_x64, DXUpdate_MDX_x86
+
+[4.09.00.0904.00-4.09.00.0904.00_Srv2K3@64]
+DXUpdate_Apr2006_xinput_x86,   %11%\xinput1_1.dll
+DXUpdate_Apr2006_xinput_x64,   %11%\xinput1_1.dll
+DXUpdate_Aug2006_xinput_x86,   %11%\xinput1_2.dll
+DXUpdate_Aug2006_xinput_x64,   %11%\xinput1_2.dll
+DXUpdate_Apr2007_xinput_x86,   %11%\xinput1_3.dll, 9.18.944.0
+DXUpdate_Apr2007_xinput_x64,   %11%\xinput1_3.dll, 9.18.944.0
+Dependencies: DXUpdate_x86, DXUpdate_x64, DXUpdate_MDX_x86
+
+[4.09.00.0904.00-4.09.00.0904.00_WinNT@64]
+DXUpdate_Apr2006_xinput_x86,   %11%\xinput1_1.dll
+DXUpdate_Apr2006_xinput_x64,   %11%\xinput1_1.dll
+DXUpdate_Aug2006_xinput_x86,   %11%\xinput1_2.dll
+DXUpdate_Aug2006_xinput_x64,   %11%\xinput1_2.dll
+DXUpdate_Dec2006_d3dx10_x86,   %11%\d3dx10.dll
+DXUpdate_Dec2006_d3dx10_x64,   %11%\d3dx10.dll
+DXUpdate_Apr2007_xinput_x86,   %11%\xinput1_3.dll, 9.18.944.0
+DXUpdate_Apr2007_xinput_x64,   %11%\xinput1_3.dll, 9.18.944.0
+Dependencies: DXUpdate_x86, DXUpdate_x64, DXUpdate_MDX_x86
+
+[Strings]
+SetupTitle      = "Microsoft DirectX Update"
+DirectX         = "Microsoft DirectX"
+DirectX_Desc    = "Microsoft DirectX Update"
+
+Summer2004      = "DirectX 9.0 SDK Update (Summer 2004)"
+Oct2004         = "DirectX 9.0 SDK Update (October 2004)"
+Dec2004         = "DirectX 9.0 SDK Update (December 2004)"
+Feb2005         = "DirectX 9.0 SDK Update (February 2005)"
+Apr2005         = "DirectX 9.0 SDK Update (April 2005)"
+Jun2005         = "DirectX 9.0 SDK Update (June 2005)"
+Aug2005         = "DirectX 9.0 SDK Update (August 2005)"
+Oct2005         = "DirectX 9.0 SDK Update (October 2005)"
+Dec2005         = "DirectX SDK Update (December 2005)"
+Feb2006         = "DirectX SDK Update (February 2006)"
+Apr2006         = "DirectX SDK Update (April 2006)"
+Jun2006         = "DirectX SDK Update (June 2006)"
+Aug2006         = "DirectX SDK Update (August 2006)"
+Oct2006         = "DirectX SDK Update (October 2006)"
+Dec2006         = "DirectX SDK Update (December 2006)"
+Feb2007         = "DirectX SDK Update (February 2007)"
+Apr2007         = "DirectX SDK Update (April 2007)"
+Jun2007         = "DirectX SDK Update (June 2007)"
+Aug2007         = "DirectX SDK Update (August 2007)"
+Nov2007         = "DirectX SDK Update (November 2007)"
+Mar2008         = "DirectX SDK Update (March 2008)"
+Jun2008         = "DirectX SDK Update (June 2008)"
+Aug2008         = "DirectX SDK Update (August 2008)"
+Nov2008         = "DirectX SDK Update (November 2008)"
+Mar2009         = "DirectX SDK Update (March 2009)"
+Aug2009         = "DirectX SDK Update (August 2009)"
+Feb2010         = "DirectX SDK Update (February 2010)"
+Jun2010         = "DirectX SDK Update (June 2010)"
+DXDLLREG        = "DXDLLReg.exe"
+
+MDX_1.0.2902.0  = "Managed DirectX (1.0.2902.0)"
+MDX_1.0.2903.0  = "Managed DirectX (1.0.2903.0)"
+MDX_1.0.2904.0  = "Managed DirectX (1.0.2904.0)"
+MDX_1.0.2905.0  = "Managed DirectX (1.0.2905.0)"
+MDX_1.0.2906.0  = "Managed DirectX (1.0.2906.0)"
+MDX_1.0.2907.0  = "Managed DirectX (1.0.2907.0)"
+MDX_1.0.2908.0  = "Managed DirectX (1.0.2908.0)"
+MDX_1.0.2909.0  = "Managed DirectX (1.0.2909.0)"
+MDX_1.0.2910.0  = "Managed DirectX (1.0.2910.0)"
+

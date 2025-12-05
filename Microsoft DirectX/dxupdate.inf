@@ -1,0 +1,385 @@
+
+; ---- Common sections ----
+[Version]
+Signature   = "$CHICAGO$"
+AdvancedINF = 2.0
+Provider    = %MSFT%
+SetupClass  = BASE
+
+[Strings]
+MSFT        = "Microsoft"
+
+[MDXDLLs]
+Microsoft.DirectX.AudioVideoPlayback.dll
+Microsoft.DirectX.Diagnostics.dll
+Microsoft.DirectX.Direct3D.dll
+Microsoft.DirectX.Direct3DX.dll
+Microsoft.DirectX.DirectDraw.dll
+Microsoft.DirectX.DirectInput.dll
+Microsoft.DirectX.DirectPlay.dll
+Microsoft.DirectX.DirectSound.dll
+Microsoft.DirectX.dll
+
+
+; ---- Windows 98 ----
+[4.09.00.0904.00-4.09.00.0904.00_Win98_Feb2005_d3dx9_24_x86.cab]
+NumberOfFiles=4
+Size=2178 ;approximately total file size (Size * 1024 bytes)
+CopyCount=1
+d3dx9_24_w9x.inf
+
+[4.09.00.0904.00-4.09.00.0904.00_Win98_Feb2005_MDX_x86.MSI]
+NumberOfFiles=1
+Size=1788 ;approximately total file size (Size * 1024 bytes)
+CopyCount=1
+Dependencies=feb2005_d3dx9_24_x86.cab
+Feb2005_MDX_x86.MSI
+
+
+; ---- Windows ME ----
+[4.09.00.0904.00-4.09.00.0904.00_WinME_Feb2005_d3dx9_24_x86.cab]
+NumberOfFiles=4
+Size=2178 ;approximately total file size (Size * 1024 bytes)
+CopyCount=1
+d3dx9_24_w9x.inf
+
+[4.09.00.0904.00-4.09.00.0904.00_WinME_Feb2005_MDX_x86.MSI]
+NumberOfFiles=1
+Size=1788 ;approximately total file size (Size * 1024 bytes)
+CopyCount=1
+Dependencies=feb2005_d3dx9_24_x86.cab
+Feb2005_MDX_x86.MSI
+
+
+; ---- Windows 2000 ----
+[4.09.00.0904.00-4.09.00.0904.00_Win2K_Feb2005_d3dx9_24_x86.cab]
+NumberOfFiles=4
+Size=2178 ;approximately total file size (Size * 1024 bytes)
+CopyCount=1
+d3dx9_24_x86.inf, x86_Install
+
+[4.09.00.0904.00-4.09.00.0904.00_Win2K_Feb2005_MDX_x86.MSI]
+NumberOfFiles=1
+Size=1788 ;approximately total file size (Size * 1024 bytes)
+CopyCount=1
+Dependencies=feb2005_d3dx9_24_x86.cab
+Feb2005_MDX_x86.MSI
+
+
+; ---- Windows XP ----
+[4.09.00.0904.00-4.09.00.0904.00_WinXP_Feb2005_d3dx9_24_x86.cab]
+NumberOfFiles=4
+Size=2178 ;approximately total file size (Size * 1024 bytes)
+CopyCount=1
+d3dx9_24_x86.inf, x86_Install
+
+[4.09.00.0904.00-4.09.00.0904.00_WinXP_Feb2005_MDX_x86.MSI]
+NumberOfFiles=4
+Size=1788 ;approximately total file size (Size * 1024 bytes)
+CopyCount=1
+Dependencies=feb2005_d3dx9_24_x86.cab
+Feb2005_MDX_x86.MSI
+
+
+; ---- Windows XP 64bit ----
+[4.09.00.0904.00-4.09.00.0904.00_WinXP@64_Feb2005_d3dx9_24_x86.cab]
+NumberOfFiles=4
+Size=2178 ;approximately total file size (Size * 1024 bytes)
+CopyCount=1
+d3dx9_24_x86.inf, x64_Install
+
+[4.09.00.0904.00-4.09.00.0904.00_WinXP@64_Feb2005_d3dx9_24_x64.cab]
+NumberOfFiles=3
+Size=3462 ;approximately total file size (Size * 1024 bytes)
+CopyCount=1
+infinst.exe d3dx9_24_x64.inf
+
+[4.09.00.0904.00-4.09.00.0904.00_WinXP@64_Feb2005_MDX_x86.MSI]
+NumberOfFiles=1
+Size=1788 ;approximately total file size (Size * 1024 bytes)
+CopyCount=1
+Dependencies=feb2005_d3dx9_24_x86.cab
+Feb2005_MDX_x86.MSI
+
+
+; ---- Windows Server 2003 ----
+[4.09.00.0904.00-4.09.00.0904.00_Srv2K3_Feb2005_d3dx9_24_x86.cab]
+NumberOfFiles=4
+Size=2178 ;approximately total file size (Size * 1024 bytes)
+CopyCount=1
+d3dx9_24_x86.inf, x86_install
+
+[4.09.00.0904.00-4.09.00.0904.00_Srv2K3_Feb2005_MDX_x86.MSI]
+NumberOfFiles=4
+Size=1788 ;approximately total file size (Size * 1024 bytes)
+CopyCount=1
+Dependencies=feb2005_d3dx9_24_x86.cab
+Feb2005_MDX_x86.MSI
+
+
+; ---- Windows Server 2003 64bit ----
+[4.09.00.0904.00-4.09.00.0904.00_Srv2K3@64_Feb2005_d3dx9_24_x86.cab]
+NumberOfFiles=4
+Size=2178 ;approximately total file size (Size * 1024 bytes)
+CopyCount=1
+d3dx9_24_x86.inf, x64_install
+
+[4.09.00.0904.00-4.09.00.0904.00_Srv2K3@64_Feb2005_d3dx9_24_x64.cab]
+NumberOfFiles=3
+Size=3462 ;approximately total file size (Size * 1024 bytes)
+CopyCount=1
+infinst.exe d3dx9_24_x64.inf
+
+[4.09.00.0904.00-4.09.00.0904.00_Srv2K3@64_Feb2005_MDX_x86.MSI]
+NumberOfFiles=1
+Size=1788 ;approximately total file size (Size * 1024 bytes)
+CopyCount=1
+Dependencies=feb2005_d3dx9_24_x86.cab
+Feb2005_MDX_x86.MSI
+
+
+; ---- Windows XP Version 2003 and beyond ----
+[4.09.00.0904.00-4.09.00.0904.00_WinNT_Feb2005_d3dx9_24_x86.cab]
+NumberOfFiles=4
+Size=2178 ;approximately total file size (Size * 1024 bytes)
+CopyCount=1
+d3dx9_24_x86.inf, x86_install
+
+[4.09.00.0904.00-4.09.00.0904.00_WinNT_Feb2005_MDX_x86.MSI]
+NumberOfFiles=1
+Size=1788 ;approximately total file size (Size * 1024 bytes)
+CopyCount=1
+Dependencies=feb2005_d3dx9_24_x86.cab
+Feb2005_MDX_x86.MSI
+
+
+; ---- Windows XP Version 2003 and beyond 64bit ----
+[4.09.00.0904.00-4.09.00.0904.00_WinNT@64_Feb2005_d3dx9_24_x86.cab]
+NumberOfFiles=4
+Size=2178 ;approximately total file size (Size * 1024 bytes)
+CopyCount=1
+d3dx9_24_x86.inf, x64_install
+
+[4.09.00.0904.00-4.09.00.0904.00_WinNT@64_Feb2005_d3dx9_24_x64.cab]
+NumberOfFiles=3
+Size=3462 ;approximately total file size (Size * 1024 bytes)
+CopyCount=1
+infinst.exe d3dx9_24_x64.inf
+
+[4.09.00.0904.00-4.09.00.0904.00_WinNT@64_Feb2005_MDX_x86.MSI]
+NumberOfFiles=1
+Size=1788 ;approximately total file size (Size * 1024 bytes)
+CopyCount=1
+Dependencies=feb2005_d3dx9_24_x86.cab
+Feb2005_MDX_x86.MSI
+
+
+; ---- sections for checking condition ----
+[Feb2005_MDX_x86.MSI]
+MDX
+{E9E34215-82EF-4909-BE2F-F581F0DC9062}
+{339E14FF-8FDC-4809-AAF2-87BA22905C7F}
+
+
+; ---- Plug-In list ----
+[DirectX_Update_PlugIn]
+dxdllreg_x86.cab,                  2
+RGB9Rast_1_x86.cab,                1
+RGB9Rast_1_x64.cab,                9
+RGB9Rast_2_x86.cab,                1
+RGB9Rast_2_x64.cab,                9
+MDX_1.0.2902.0_x86.cab,           49
+MDX_1.0.2903.0_x86.cab,           49
+MDX_1.0.2904.0_x86.cab,           49
+MDX_1.0.2905.0_x86.cab,           49
+MDX_1.0.2906.0_x86.cab,           49
+MDX_1.0.2907.0_x86.cab,           49
+MDX_1.0.2908.0_x86.cab,           49
+MDX_1.0.2909.0_x86.cab,           49
+MDX_1.0.2910.0_x86.cab,           49
+Feb2005_d3dx9_24_x86.cab,          1
+Feb2005_d3dx9_24_x64.cab,          9
+Feb2005_MDX_x86.MSI,              17
+Apr2005_d3dx9_25_x86.cab,          1
+Apr2005_d3dx9_25_x64.cab,          9
+Apr2005_MDX_x86.cab,              49
+Jun2005_d3dx9_26_x86.cab,          1
+Jun2005_d3dx9_26_x64.cab,          9
+Jun2005_MDX_x86.cab,              49
+Aug2005_d3dx9_27_x86.cab,          1
+Aug2005_d3dx9_27_x64.cab,          9
+Aug2005_MDX_x86.cab,              49
+Oct2005_d3dx9_27_x86.cab,          1
+Oct2005_d3dx9_27_x64.cab,          9
+Oct2005_MDX_x86.cab,              49
+Oct2005_xinput_x86.cab,          385
+Oct2005_xinput_x64.cab,          393
+Dec2005_d3dx9_28_x86.cab,          1
+Dec2005_d3dx9_28_x64.cab,          9
+Dec2005_MDX1_x86_Archive.cab,     49
+Dec2005_MDX1_x86.cab,             49
+Feb2006_d3dx9_29_x86.cab,          1
+Feb2006_d3dx9_29_x64.cab,          9
+Feb2006_MDX1_x86_Archive.cab,     49
+Feb2006_MDX1_x86.cab,             49
+Feb2006_XACT_x86.cab,              1
+Feb2006_XACT_x64.cab,              9
+Apr2006_d3dx9_30_x86.cab,          1
+Apr2006_d3dx9_30_x64.cab,          9
+Apr2006_MDX1_x86_Archive.cab,     49
+Apr2006_MDX1_x86.cab,             49
+Apr2006_XACT_x86.cab,              1
+Apr2006_XACT_x64.cab,              9
+Apr2006_xinput_x86.cab,          129
+Apr2006_xinput_x64.cab,          137
+Jun2006_XACT_x86.cab,              1
+Jun2006_XACT_x64.cab,              9
+Aug2006_xinput_x86.cab,          129
+Aug2006_xinput_x64.cab,          137
+Aug2006_XACT_x86.cab,              1
+Aug2006_XACT_x64.cab,              9
+Oct2006_d3dx9_31_x86.cab,          1
+Oct2006_d3dx9_31_x64.cab,          9
+Oct2006_XACT_x86.cab,              1
+Oct2006_XACT_x64.cab,              9
+Dec2006_d3dx9_32_x86.cab,          1
+Dec2006_d3dx9_32_x64.cab,          9
+Dec2006_d3dx10_00_x86.cab,         1
+Dec2006_d3dx10_00_x64.cab,         9
+Dec2006_XACT_x86.cab,              1
+Dec2006_XACT_x64.cab,              9
+Feb2007_XACT_x86.cab,              1
+Feb2007_XACT_x64.cab,              9
+Apr2007_d3dx9_33_x86.cab,          1
+Apr2007_d3dx9_33_x64.cab,          9
+Apr2007_d3dx10_33_x86.cab,         1
+Apr2007_d3dx10_33_x64.cab,         9
+Apr2007_XACT_x86.cab,              1
+Apr2007_XACT_x64.cab,              9
+Apr2007_xinput_x86.cab,            1
+Apr2007_xinput_x64.cab,            9
+Jun2007_d3dx9_34_x86.cab,          1
+Jun2007_d3dx9_34_x64.cab,          9
+Jun2007_d3dx10_34_x86.cab,         1
+Jun2007_d3dx10_34_x64.cab,         9
+Jun2007_XACT_x86.cab,              1
+Jun2007_XACT_x64.cab,              9
+Aug2007_d3dx9_35_x86.cab,          1
+Aug2007_d3dx9_35_x64.cab,          9
+Aug2007_d3dx10_35_x86.cab,         1
+Aug2007_d3dx10_35_x64.cab,         9
+Aug2007_XACT_x86.cab,              1
+Aug2007_XACT_x64.cab,              9
+Nov2007_d3dx9_36_x86.cab,          1
+Nov2007_d3dx9_36_x64.cab,          9
+Nov2007_d3dx10_36_x86.cab,         1
+Nov2007_d3dx10_36_x64.cab,         9
+Nov2007_X3DAudio_x86.cab,          1
+Nov2007_X3DAudio_x64.cab,          9
+Nov2007_XACT_x86.cab,              1
+Nov2007_XACT_x64.cab,              9
+Mar2008_d3dx9_37_x86.cab,          1
+Mar2008_d3dx9_37_x64.cab,          9
+Mar2008_d3dx10_37_x86.cab,         1
+Mar2008_d3dx10_37_x64.cab,         9
+Mar2008_X3DAudio_x86.cab,          1
+Mar2008_X3DAudio_x64.cab,          9
+Mar2008_XACT_x86.cab,              1
+Mar2008_XACT_x64.cab,              9
+Mar2008_XAudio_x86.cab,            1
+Mar2008_XAudio_x64.cab,            9
+Jun2008_d3dx9_38_x86.cab,          1
+Jun2008_d3dx9_38_x64.cab,          9
+Jun2008_d3dx10_38_x86.cab,         1
+Jun2008_d3dx10_38_x64.cab,         9
+Jun2008_X3DAudio_x86.cab,          1
+Jun2008_X3DAudio_x64.cab,          9
+Jun2008_XACT_x86.cab,              1
+Jun2008_XACT_x64.cab,              9
+Jun2008_XAudio_x86.cab,            1
+Jun2008_XAudio_x64.cab,            9
+Aug2008_d3dx9_39_x86.cab,          1
+Aug2008_d3dx9_39_x64.cab,          9
+Aug2008_d3dx10_39_x86.cab,         1
+Aug2008_d3dx10_39_x64.cab,         9
+Aug2008_XACT_x86.cab,              1
+Aug2008_XACT_x64.cab,              9
+Aug2008_XAudio_x86.cab,            1
+Aug2008_XAudio_x64.cab,            9
+Nov2008_X3DAudio_x86.cab,          1
+Nov2008_X3DAudio_x64.cab,          9
+Nov2008_XACT_x86.cab,              1
+Nov2008_XACT_x64.cab,              9
+Nov2008_XAudio_x86.cab,            1
+Nov2008_XAudio_x64.cab,            9
+Nov2008_d3dx9_40_x86.cab,          1
+Nov2008_d3dx9_40_x64.cab,          9
+Nov2008_d3dx10_40_x86.cab,         1
+Nov2008_d3dx10_40_x64.cab,         9
+Mar2009_X3DAudio_x86.cab,          1
+Mar2009_X3DAudio_x64.cab,          9
+Mar2009_XACT_x86.cab,              1
+Mar2009_XACT_x64.cab,              9
+Mar2009_XAudio_x86.cab,            1
+Mar2009_XAudio_x64.cab,            9
+Mar2009_d3dx9_41_x86.cab,          1
+Mar2009_d3dx9_41_x64.cab,          9
+Mar2009_d3dx10_41_x86.cab,         1
+Mar2009_d3dx10_41_x64.cab,         9
+Aug2009_d3dx9_42_x86.cab,          1
+Aug2009_d3dx9_42_x64.cab,          9
+Aug2009_d3dx10_42_x86.cab,         1
+Aug2009_d3dx10_42_x64.cab,         9
+Aug2009_d3dx11_42_x86.cab,         1
+Aug2009_d3dx11_42_x64.cab,         9
+Aug2009_d3dcsx_42_x86.cab,         1
+Aug2009_d3dcsx_42_x64.cab,         9
+Aug2009_D3DCompiler_42_x86.cab,    1
+Aug2009_D3DCompiler_42_x64.cab,    9
+Aug2009_XACT_x86.cab,              1
+Aug2009_XACT_x64.cab,              9
+Aug2009_XAudio_x86.cab,            1
+Aug2009_XAudio_x64.cab,            9
+Feb2010_X3DAudio_x86.cab,          1
+Feb2010_X3DAudio_x64.cab,          9
+Feb2010_XACT_x86.cab,              1
+Feb2010_XACT_x64.cab,              9
+Feb2010_XAudio_x86.cab,            1
+Feb2010_XAudio_x64.cab,            9
+Jun2010_d3dx9_43_x86.cab,          1
+Jun2010_d3dx9_43_x64.cab,          9
+Jun2010_d3dx10_43_x86.cab,         1
+Jun2010_d3dx10_43_x64.cab,         9
+Jun2010_d3dx11_43_x86.cab,         1
+Jun2010_d3dx11_43_x64.cab,         9
+Jun2010_d3dcsx_43_x86.cab,         1
+Jun2010_d3dcsx_43_x64.cab,         9
+Jun2010_D3DCompiler_43_x86.cab,    1
+Jun2010_D3DCompiler_43_x64.cab,    9
+Jun2010_XACT_x86.cab,              1
+Jun2010_XACT_x64.cab,              9
+Jun2010_XAudio_x86.cab,            1
+Jun2010_XAudio_x64.cab,            9
+Beta_Jun2005_xinput_x86.cab,     449
+Beta_Jun2005_xinput_x64.cab,     457
+Beta_Oct2005_XACT_x86.cab,       321
+Beta_Oct2005_MDX_x86.cab,       1137
+Beta_Dec2005_XACT_x86.cab,       321
+Beta_Dec2005_MDX2_x86.cab,      1137
+Beta_Dec2005_MDX2_x64.cab,      1145
+Beta_Dec2005_d3dx10_x86.cab,      65
+Beta_Dec2005_d3dx10_x64.cab,      73
+Beta_Feb2006_MDX2_x86.cab,      1137
+Beta_Feb2006_MDX2_x64.cab,      1145
+Beta_Feb2006_d3dx10_x86.cab,      65
+Beta_Feb2006_d3dx10_x64.cab,      73
+Beta_Apr2006_MDX2_x86.cab,      1137
+Beta_Apr2006_MDX2_x64.cab,      1145
+Beta_Apr2006_d3dx10_x86.cab,      65
+Beta_Apr2006_d3dx10_x64.cab,      73
+Beta_Jun2006_d3dx10_x86.cab,      65
+Beta_Jun2006_d3dx10_x64.cab,      73
+Beta_Aug2006_d3dx10_x86.cab,      65
+Beta_Aug2006_d3dx10_x64.cab,      73
+Beta_Oct2006_d3dx10_x86.cab,      65
+Beta_Oct2006_d3dx10_x64.cab,      73
